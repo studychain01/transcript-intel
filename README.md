@@ -65,7 +65,7 @@ Support case · Detect outage · Comply · Aegis · Others
 
 ## Notebook: top 5 + chart
 
-Open **`notebooks/02_analysis.ipynb`** after running the pipeline (or run `run_pipeline()` from the first code cell).
+Open **`notebooks/02_analysis.ipynb`** and run top-to-bottom. The first code section calls `run_pipeline()` and creates parquet automatically.
 
 | Piece | Idea |
 |:---:|:---|
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 export PYTHONPATH=src
 ```
 
-### 2️⃣ Build `meetings.parquet` (pipeline)
+### 2️⃣ (Optional) Build `meetings.parquet` from terminal
 
 Still in **`interview-assignment/`** (parent of `src/` and `dataset/`):
 
@@ -153,8 +153,10 @@ jupyter lab
 Open **`02_analysis.ipynb`**, then:
 
 1. **Run → Run All Cells** (or top to bottom once).
-2. First cells may call **`run_pipeline()`** — that rebuilds parquet from `../dataset/`; if you already ran step 2, you can skip re-running that cell after the first time.
-3. After **`df = pd.read_parquet(...)`** loads, run through **sentiment**, **Part 3 (top 5 + chart)**, and optional **Ask the transcript**.
+2. The first code section runs **`run_pipeline()`** and writes parquet/CSV from `../dataset/`.
+3. After **`df = pd.read_parquet(...)`** loads, continue through **sentiment**, **Part 3 (top 5 + chart)**, and optional **Ask the transcript**.
+
+If you already built parquet from terminal (step 2), you can skip re-running the notebook pipeline cell.
 
 **Ask the transcript:** set the key **before** starting Jupyter (same terminal session), or your shell profile:
 
@@ -180,20 +182,6 @@ Then run the widget cell; pick a call, type a question, click **Ask transcript**
 | `taxonomy.py` | Allowed primary labels + normalization |
 | `classify_rules.py` | Primary + secondary tags (default path) |
 | `sentiment_agg.py` | `pct_*`, labels, speaker breakdown |
-| `classify_llm.py` | Optional LLM classifier |
 | `pipeline.py` | Orchestration |
 
 ---
-
-## Optional LLM classification
-
-Swap to LLM‑based tagging with **LangChain** + structured output (see `classify_llm.py`). Requires:
-
-```bash
-pip install langchain-openai
-export OPENAI_API_KEY=sk-...
-# optional: export OPENAI_MODEL=gpt-4o-mini
-python -m transcript_intel.pipeline
-```
-
-Logs: `outputs/llm_logs/{meeting_id}.json`
