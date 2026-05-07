@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "competitive positioning",
+      "sales strategy",
+      "product launch"
+    ],
+    "subthemes": [
+      "platform reliability",
+      "Comply v2 differentiation",
+      "Hartfield Manufacturing deal"
+    ],
+    "reasoning": "The call centers around strategizing competitive responses to SentinelShield's aggressive positioning in the market, particularly in late-stage sales conversations. The team discusses how to effectively communicate their product's reliability improvements and the advantages of their newly launched Comply v2 product. They also focus on specific deals, like Hartfield Manufacturing, and how to leverage their product features to win over prospects.",
+    "evidence_quotes": [
+      "we've had three deals in the last two weeks where SentinelShield came up pretty aggressively",
+      "the outage",
+      "Comply v2 is actually a pretty strong differentiator right now"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "competitive positioning",
+      "sales strategy",
+      "product launch"
+    ],
+    "subthemes": [
+      "platform reliability",
+      "Comply v2 differentiation",
+      "Hartfield Manufacturing deal"
+    ],
+    "reasoning": "The call centers around strategizing competitive responses to SentinelShield's aggressive positioning in the market, particularly in late-stage sales conversations. The team discusses how to effectively communicate their product's reliability improvements and the advantages of their newly launched Comply v2 product. They also focus on specific deals, like Hartfield Manufacturing, and how to leverage their product features to win over prospects.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

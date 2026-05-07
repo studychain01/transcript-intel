@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "quarterly planning",
+      "backup performance",
+      "restore UX improvement",
+      "multi-region replication",
+      "tech debt"
+    ],
+    "subthemes": [
+      "incremental backup performance",
+      "restore wizard UX",
+      "canary deployment",
+      "multi-region replication",
+      "technical debt"
+    ],
+    "reasoning": "The call centers around quarterly planning for the Protect product, focusing on product improvements and operational strategies. The team discusses specific initiatives such as enhancing backup performance, redesigning the restore user experience, and planning for multi-region replication. Additionally, they address the need to allocate time for technical debt, indicating a focus on both product development and operational efficiency.",
+    "evidence_quotes": [
+      "I want to make sure we actually go into it with a solid plan this time",
+      "we're seeing like a 30-something percent reduction in backup window times",
+      "I want to carve out some time in Q2 for tech debt."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "quarterly planning",
+      "backup performance",
+      "restore UX improvement",
+      "multi-region replication",
+      "tech debt"
+    ],
+    "subthemes": [
+      "incremental backup performance",
+      "restore wizard UX",
+      "canary deployment",
+      "multi-region replication",
+      "technical debt"
+    ],
+    "reasoning": "The call centers around quarterly planning for the Protect product, focusing on product improvements and operational strategies. The team discusses specific initiatives such as enhancing backup performance, redesigning the restore user experience, and planning for multi-region replication. Additionally, they address the need to allocate time for technical debt, indicating a focus on both product development and operational efficiency.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage remediation",
+      "customer communication",
+      "postmortem planning"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "redundant processing nodes",
+      "circuit breaker implementation",
+      "retroactive security analysis",
+      "customer visibility restoration"
+    ],
+    "reasoning": "The call centers around addressing an ongoing outage affecting the Detect product's event processing pipeline. The team discusses the root cause of the outage, the remediation plan, and the communication strategy for affected customers. They also plan for a postmortem to analyze the incident and improve future reliability.",
+    "evidence_quotes": [
+      "we're still in the middle of this, day three of the outage window",
+      "the fix is two-pronged",
+      "we should have had this from the start, honestly"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage remediation",
+      "customer communication",
+      "postmortem planning"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "redundant processing nodes",
+      "circuit breaker implementation",
+      "retroactive security analysis",
+      "customer visibility restoration"
+    ],
+    "reasoning": "The call centers around addressing an ongoing outage affecting the Detect product's event processing pipeline. The team discusses the root cause of the outage, the remediation plan, and the communication strategy for affected customers. They also plan for a postmortem to analyze the incident and improve future reliability.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

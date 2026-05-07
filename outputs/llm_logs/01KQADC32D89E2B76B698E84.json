@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "SSO outage",
+      "incident communication",
+      "workaround"
+    ],
+    "subthemes": [
+      "SAML NameID format handling",
+      "temporary local auth override",
+      "patch deployment",
+      "user access issues"
+    ],
+    "reasoning": "The call primarily revolves around a significant SSO outage affecting a large portion of Nova Retail Group's users, which has been traced back to a regression introduced by a recent patch. The discussion includes the identification of the issue, the impact on users, and the communication (or lack thereof) from Aegis Cloud Security regarding the incident. The representatives from Nova express frustration over the downtime and the need for a timely resolution, while Aegis support provides a temporary workaround and commits to escalating the issue.",
+    "evidence_quotes": [
+      "We started getting a flood of tickets from users saying they couldn't log in through SSO.",
+      "There was an update pushed the day before this started and you're just telling us this now?",
+      "I want to be clear — we're not going anywhere, we're committed to Aegis, but this has been a rough week."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "SSO outage",
+      "incident communication",
+      "workaround"
+    ],
+    "subthemes": [
+      "SAML NameID format handling",
+      "temporary local auth override",
+      "patch deployment",
+      "user access issues"
+    ],
+    "reasoning": "The call primarily revolves around a significant SSO outage affecting a large portion of Nova Retail Group's users, which has been traced back to a regression introduced by a recent patch. The discussion includes the identification of the issue, the impact on users, and the communication (or lack thereof) from Aegis Cloud Security regarding the incident. The representatives from Nova express frustration over the downtime and the need for a timely resolution, while Aegis support provides a temporary workaround and commits to escalating the issue.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

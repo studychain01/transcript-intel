@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "custom reporting",
+      "feature request",
+      "compliance frameworks"
+    ],
+    "subthemes": [
+      "cross-framework reporting",
+      "control mapping matrix",
+      "auditor handoffs"
+    ],
+    "reasoning": "The call primarily revolves around a support case regarding a feature gap in the Aegis Comply platform related to custom reporting for compliance frameworks. The customer is seeking a specific reporting capability that is not currently available, and the support representative is addressing this gap while also discussing workarounds and the escalation of a feature request to the product team. The conversation highlights the customer's need for a more efficient reporting solution for audit purposes.",
+    "evidence_quotes": [
+      "we need is the ability to kind of cross-reference controls across multiple frameworks",
+      "that's a known gap",
+      "I'll make sure all of that is in the feature request documentation."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "custom reporting",
+      "feature request",
+      "compliance frameworks"
+    ],
+    "subthemes": [
+      "cross-framework reporting",
+      "control mapping matrix",
+      "auditor handoffs"
+    ],
+    "reasoning": "The call primarily revolves around a support case regarding a feature gap in the Aegis Comply platform related to custom reporting for compliance frameworks. The customer is seeking a specific reporting capability that is not currently available, and the support representative is addressing this gap while also discussing workarounds and the escalation of a feature request to the product team. The conversation highlights the customer's need for a more efficient reporting solution for audit purposes.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

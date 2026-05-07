@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "platform outage",
+      "data backfill",
+      "SLA credits"
+    ],
+    "subthemes": [
+      "event ingestion failure",
+      "threat monitoring gap",
+      "operational technology visibility",
+      "escalation to Sev 1",
+      "root cause analysis"
+    ],
+    "reasoning": "The call revolves around a critical platform outage affecting Ridgeline Logistics' Detect dashboard, which has resulted in a complete lack of threat monitoring visibility for nearly 24 hours. The customer is understandably frustrated as this impacts their operational technology networks, and they are seeking urgent resolution and clarity on data backfill options. The support team acknowledges the issue and commits to escalating the case while addressing the customer's concerns about compliance and service level agreements.",
+    "evidence_quotes": [
+      "we have literally zero visibility",
+      "this appears to be on our side",
+      "we're escalating this to Sev 1"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "platform outage",
+      "data backfill",
+      "SLA credits"
+    ],
+    "subthemes": [
+      "event ingestion failure",
+      "threat monitoring gap",
+      "operational technology visibility",
+      "escalation to Sev 1",
+      "root cause analysis"
+    ],
+    "reasoning": "The call revolves around a critical platform outage affecting Ridgeline Logistics' Detect dashboard, which has resulted in a complete lack of threat monitoring visibility for nearly 24 hours. The customer is understandably frustrated as this impacts their operational technology networks, and they are seeking urgent resolution and clarity on data backfill options. The support team acknowledges the issue and commits to escalating the case while addressing the customer's concerns about compliance and service level agreements.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

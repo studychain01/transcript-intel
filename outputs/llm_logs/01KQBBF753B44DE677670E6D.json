@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "alert latency",
+      "incident communication failure",
+      "regulatory compliance"
+    ],
+    "subthemes": [
+      "threat alert delays",
+      "platform outage notification",
+      "emergency infrastructure rebalancing"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding significant delays in threat alerts for Summit Trust's security platform, which poses compliance risks due to their financial services obligations. The discussion highlights a failure in communication regarding a previous platform outage and the subsequent impact on alert processing. The support representative is working to resolve the latency issue while also addressing the communication failures that led to the current frustrations.",
+    "evidence_quotes": [
+      "our threat alerts are coming in anywhere from 20 to 45 minutes late",
+      "we had no communication from Aegis about a platform outage",
+      "this is a serious gap. We have examiners who ask us whether our security tooling was operational."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "alert latency",
+      "incident communication failure",
+      "regulatory compliance"
+    ],
+    "subthemes": [
+      "threat alert delays",
+      "platform outage notification",
+      "emergency infrastructure rebalancing"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding significant delays in threat alerts for Summit Trust's security platform, which poses compliance risks due to their financial services obligations. The discussion highlights a failure in communication regarding a previous platform outage and the subsequent impact on alert processing. The support representative is working to resolve the latency issue while also addressing the communication failures that led to the current frustrations.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

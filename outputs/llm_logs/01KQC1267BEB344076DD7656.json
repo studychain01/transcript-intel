@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "platform reliability",
+      "contract renewal",
+      "incident post-mortem"
+    ],
+    "subthemes": [
+      "Detect platform outage",
+      "SLA language updates",
+      "configuration review",
+      "Comply v2 launch"
+    ],
+    "reasoning": "The call primarily revolves around addressing a significant outage of the Detect platform and discussing the implications for contract renewal. The participants are focused on ensuring that the necessary documentation and improvements are in place to justify the renewal to their leadership. The conversation highlights the need for transparency and accountability regarding the outage and the upcoming compliance requirements.",
+    "evidence_quotes": [
+      "Six hours where we had zero visibility into threat monitoring.",
+      "I want the post-mortem in writing, I want updated SLA language that actually has teeth around uptime for Detect specifically.",
+      "Can you send us documentation on those changes?"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "platform reliability",
+      "contract renewal",
+      "incident post-mortem"
+    ],
+    "subthemes": [
+      "Detect platform outage",
+      "SLA language updates",
+      "configuration review",
+      "Comply v2 launch"
+    ],
+    "reasoning": "The call primarily revolves around addressing a significant outage of the Detect platform and discussing the implications for contract renewal. The participants are focused on ensuring that the necessary documentation and improvements are in place to justify the renewal to their leadership. The conversation highlights the need for transparency and accountability regarding the outage and the upcoming compliance requirements.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

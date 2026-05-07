@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "audit preparation",
+      "SOC 2 Type II certification",
+      "customer renewals"
+    ],
+    "subthemes": [
+      "incident response documentation",
+      "evidence packaging",
+      "availability controls",
+      "change management",
+      "customer-facing commitments"
+    ],
+    "reasoning": "The call centers around the final review of SOC 2 Type II audit materials, focusing on compliance and security measures before submission to auditors. The team discusses specific sections of the audit, including incident response and availability controls, while also addressing how these elements impact customer renewals and procurement requirements. The emphasis on transparency and thorough documentation indicates a strong commitment to compliance and security best practices.",
+    "evidence_quotes": [
+      "we need to do a final walk-through of the SOC 2 Type II materials before we hand them off to the auditors",
+      "we identified a single point of failure, we fixed it comprehensively, and we have the audit trail to prove it",
+      "getting the report by end of May is pretty critical for us commercially."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "audit preparation",
+      "SOC 2 Type II certification",
+      "customer renewals"
+    ],
+    "subthemes": [
+      "incident response documentation",
+      "evidence packaging",
+      "availability controls",
+      "change management",
+      "customer-facing commitments"
+    ],
+    "reasoning": "The call centers around the final review of SOC 2 Type II audit materials, focusing on compliance and security measures before submission to auditors. The team discusses specific sections of the audit, including incident response and availability controls, while also addressing how these elements impact customer renewals and procurement requirements. The emphasis on transparency and thorough documentation indicates a strong commitment to compliance and security best practices.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

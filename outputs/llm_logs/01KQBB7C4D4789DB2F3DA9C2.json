@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "technical issue",
+      "support response time",
+      "product bug"
+    ],
+    "subthemes": [
+      "SIEM connector issue",
+      "connection timeouts",
+      "undocumented parameters",
+      "HIPAA compliance",
+      "support delays"
+    ],
+    "reasoning": "The call revolves around a critical technical issue with the SIEM connector used by Vanta Health Systems, which has been dropping event data due to a known bug. The customer expresses frustration over the delayed support response and lack of proactive communication regarding the issue, which is particularly concerning given their healthcare compliance obligations. The support team discusses immediate workarounds and a permanent fix while acknowledging the shortcomings in their support process.",
+    "evidence_quotes": [
+      "we've been sitting on this issue for almost ten days now",
+      "if this is a known issue in 3.4.1, why were we not notified proactively",
+      "that's a significant problem, and I have to say, if this is a known issue in 3.4.1, why were we not notified proactively"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "technical issue",
+      "support response time",
+      "product bug"
+    ],
+    "subthemes": [
+      "SIEM connector issue",
+      "connection timeouts",
+      "undocumented parameters",
+      "HIPAA compliance",
+      "support delays"
+    ],
+    "reasoning": "The call revolves around a critical technical issue with the SIEM connector used by Vanta Health Systems, which has been dropping event data due to a known bug. The customer expresses frustration over the delayed support response and lack of proactive communication regarding the issue, which is particularly concerning given their healthcare compliance obligations. The support team discusses immediate workarounds and a permanent fix while acknowledging the shortcomings in their support process.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

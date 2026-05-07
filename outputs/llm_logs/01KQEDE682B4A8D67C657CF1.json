@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "false positives",
+      "patch management",
+      "customer retention risk"
+    ],
+    "subthemes": [
+      "behavioral detection issues",
+      "baseline configuration",
+      "incident communication"
+    ],
+    "reasoning": "The call revolves around a support case where the customer is experiencing a significant increase in false positive alerts after applying a software patch. The support representative addresses the customer's frustrations regarding the lack of proactive communication about known issues with the patch and discusses steps to resolve the situation. The conversation highlights the operational impact of the false positives and the customer's concerns about their ongoing relationship with the vendor due to repeated issues.",
+    "evidence_quotes": [
+      "we're already pretty frustrated. This is the second issue we've had with Detect in, like, the past couple weeks.",
+      "Hundreds of critical alerts.",
+      "we're evaluating other vendors at renewal time, Sarah."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "false positives",
+      "patch management",
+      "customer retention risk"
+    ],
+    "subthemes": [
+      "behavioral detection issues",
+      "baseline configuration",
+      "incident communication"
+    ],
+    "reasoning": "The call revolves around a support case where the customer is experiencing a significant increase in false positive alerts after applying a software patch. The support representative addresses the customer's frustrations regarding the lack of proactive communication about known issues with the patch and discusses steps to resolve the situation. The conversation highlights the operational impact of the false positives and the customer's concerns about their ongoing relationship with the vendor due to repeated issues.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

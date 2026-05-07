@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "service outage",
+      "proactive communication failure",
+      "SLA breach",
+      "churn risk"
+    ],
+    "subthemes": [
+      "threat monitoring failure",
+      "incident escalation",
+      "operational impact",
+      "customer frustration",
+      "lack of redundancy"
+    ],
+    "reasoning": "The call centers around a critical service outage affecting Blackridge Investments' threat visibility due to a failure in the event processing pipeline. Julia Tran expresses significant frustration over the lack of proactive communication regarding the outage and the operational impact it has on her team. The conversation highlights the urgency of the situation, the need for immediate escalation, and the potential risk of customer churn if the issue is not resolved satisfactorily.",
+    "evidence_quotes": [
+      "we have zero threat visibility, zero, and it has been that way for over three hours.",
+      "this is completely unacceptable.",
+      "I have to explain why we had a multi-hour blind spot in our threat monitoring."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "service outage",
+      "proactive communication failure",
+      "SLA breach",
+      "churn risk"
+    ],
+    "subthemes": [
+      "threat monitoring failure",
+      "incident escalation",
+      "operational impact",
+      "customer frustration",
+      "lack of redundancy"
+    ],
+    "reasoning": "The call centers around a critical service outage affecting Blackridge Investments' threat visibility due to a failure in the event processing pipeline. Julia Tran expresses significant frustration over the lack of proactive communication regarding the outage and the operational impact it has on her team. The conversation highlights the urgency of the situation, the need for immediate escalation, and the potential risk of customer churn if the issue is not resolved satisfactorily.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

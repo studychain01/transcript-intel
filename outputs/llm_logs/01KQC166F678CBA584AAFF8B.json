@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "support response time",
+      "provisioning issues",
+      "renewal risk"
+    ],
+    "subthemes": [
+      "policy sync delays",
+      "shared cluster performance",
+      "engineering escalation",
+      "customer frustration",
+      "compliance requirements"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding significant delays in policy synchronization and provisioning within the Aegis Identity platform. The customer expresses frustration over the slow response time from support and the impact of these delays on their operations, particularly in a compliance-heavy financial services environment. The support engineer acknowledges the issue and proposes immediate actions to alleviate the problem while also committing to a follow-up on the root cause investigation.",
+    "evidence_quotes": [
+      "this is starting to become a real problem for us.",
+      "we have compliance requirements. We have auditors.",
+      "it just — it feels like we report these things and then it kind of goes into a black hole."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "support response time",
+      "provisioning issues",
+      "renewal risk"
+    ],
+    "subthemes": [
+      "policy sync delays",
+      "shared cluster performance",
+      "engineering escalation",
+      "customer frustration",
+      "compliance requirements"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding significant delays in policy synchronization and provisioning within the Aegis Identity platform. The customer expresses frustration over the slow response time from support and the impact of these delays on their operations, particularly in a compliance-heavy financial services environment. The support engineer acknowledges the issue and proposes immediate actions to alleviate the problem while also committing to a follow-up on the root cause investigation.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "churn risk",
+      "support escalation",
+      "identity management issues"
+    ],
+    "subthemes": [
+      "inconsistent MFA enforcement",
+      "SSO session timeouts",
+      "Detect outage impact"
+    ],
+    "reasoning": "The call primarily revolves around addressing critical concerns from Summit Trust regarding the Aegis Identity platform ahead of their renewal. Alicia expresses dissatisfaction with the inconsistent enforcement of multi-factor authentication (MFA) and session timeouts, which are causing operational disruptions and raising churn risks. Maria, the CSM, acknowledges these issues and commits to escalating support tickets and providing a formal remediation plan to retain the account.",
+    "evidence_quotes": [
+      "'Inconsistent MFA enforcement in financial services, I mean, that's not just a technical inconvenience, that's a real risk exposure for you.'",
+      "'We've been having some conversations with VaultEdge.'",
+      "'I need to be able to defend this decision internally and right now that's hard.'"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "churn risk",
+      "support escalation",
+      "identity management issues"
+    ],
+    "subthemes": [
+      "inconsistent MFA enforcement",
+      "SSO session timeouts",
+      "Detect outage impact"
+    ],
+    "reasoning": "The call primarily revolves around addressing critical concerns from Summit Trust regarding the Aegis Identity platform ahead of their renewal. Alicia expresses dissatisfaction with the inconsistent enforcement of multi-factor authentication (MFA) and session timeouts, which are causing operational disruptions and raising churn risks. Maria, the CSM, acknowledges these issues and commits to escalating support tickets and providing a formal remediation plan to retain the account.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

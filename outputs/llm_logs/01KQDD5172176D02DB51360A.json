@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "api outage",
+      "backup failure",
+      "incident communication"
+    ],
+    "subthemes": [
+      "HIPAA compliance",
+      "technical failure",
+      "proactive communication",
+      "manual backup solutions"
+    ],
+    "reasoning": "The call revolves around a technical support issue where Dr. Cheng is experiencing a significant outage with the Aegis Protect backup API, which is critical for their healthcare operations. The support agent, Priya, acknowledges the severity of the situation and discusses the technical details of the failure, while also addressing the lack of communication from Aegis during the outage. The conversation highlights the urgency of resolving the issue due to regulatory obligations and the need for immediate backup solutions.",
+    "evidence_quotes": [
+      "we've been dealing with this API issue for going on three days",
+      "this is a serious problem",
+      "I want to raise something else — we noticed that when we try to manually trigger backups through the Aegis Protect web console, those also fail."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "api outage",
+      "backup failure",
+      "incident communication"
+    ],
+    "subthemes": [
+      "HIPAA compliance",
+      "technical failure",
+      "proactive communication",
+      "manual backup solutions"
+    ],
+    "reasoning": "The call revolves around a technical support issue where Dr. Cheng is experiencing a significant outage with the Aegis Protect backup API, which is critical for their healthcare operations. The support agent, Priya, acknowledges the severity of the situation and discusses the technical details of the failure, while also addressing the lack of communication from Aegis during the outage. The conversation highlights the urgency of resolving the issue due to regulatory obligations and the need for immediate backup solutions.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

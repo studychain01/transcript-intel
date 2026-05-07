@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "pci dss compliance",
+      "audit preparation",
+      "multi-framework reporting"
+    ],
+    "subthemes": [
+      "evidence gathering process",
+      "on-demand reporting",
+      "SOC 2 overlap",
+      "QSA engagement",
+      "post-incident review"
+    ],
+    "reasoning": "The call primarily revolves around Forge Industries' preparation for a PCI DSS audit and how Aegis's Comply v2 can streamline their compliance process. Gerald discusses the challenges of manual evidence gathering and expresses interest in the product's capabilities, particularly its reporting features and multi-framework support. The conversation also touches on previous concerns about service reliability, indicating a focus on security and compliance advisory.",
+    "evidence_quotes": [
+      "our current process is... it's very manual. Spreadsheets, a lot of back and forth with our QSA",
+      "you can actually share report outputs directly with your QSA",
+      "we support PCI DSS, SOC 2, HIPAA, and ISO 27001"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "pci dss compliance",
+      "audit preparation",
+      "multi-framework reporting"
+    ],
+    "subthemes": [
+      "evidence gathering process",
+      "on-demand reporting",
+      "SOC 2 overlap",
+      "QSA engagement",
+      "post-incident review"
+    ],
+    "reasoning": "The call primarily revolves around Forge Industries' preparation for a PCI DSS audit and how Aegis's Comply v2 can streamline their compliance process. Gerald discusses the challenges of manual evidence gathering and expresses interest in the product's capabilities, particularly its reporting features and multi-framework support. The conversation also touches on previous concerns about service reliability, indicating a focus on security and compliance advisory.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

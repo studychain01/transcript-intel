@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "backup performance",
+      "throughput issues",
+      "SQL Server",
+      "support response time"
+    ],
+    "subthemes": [
+      "backup window exceeded",
+      "performance degradation",
+      "manual agent update",
+      "escalation to infrastructure team",
+      "network routing changes"
+    ],
+    "reasoning": "The call revolves around a technical support issue where the customer, Silverline Brands, is experiencing significant delays in their backup jobs, which are exceeding their scheduled window and impacting production performance. The support engineer is working to identify the root cause of the issue, which may be linked to recent changes in network routing. The customer expresses frustration over the prolonged nature of the issue and the initial response time from support, indicating a need for urgent resolution.",
+    "evidence_quotes": [
+      "we're paying for premium support.",
+      "this has been going on for about two weeks now and it's — it's becoming a real problem for us.",
+      "I specifically asked my team about that."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "backup performance",
+      "throughput issues",
+      "SQL Server",
+      "support response time"
+    ],
+    "subthemes": [
+      "backup window exceeded",
+      "performance degradation",
+      "manual agent update",
+      "escalation to infrastructure team",
+      "network routing changes"
+    ],
+    "reasoning": "The call revolves around a technical support issue where the customer, Silverline Brands, is experiencing significant delays in their backup jobs, which are exceeding their scheduled window and impacting production performance. The support engineer is working to identify the root cause of the issue, which may be linked to recent changes in network routing. The customer expresses frustration over the prolonged nature of the issue and the initial response time from support, indicating a need for urgent resolution.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "HIPAA audit preparation",
+      "multi-framework compliance",
+      "evidence management"
+    ],
+    "subthemes": [
+      "HIPAA compliance gaps",
+      "SOC 2 to HIPAA mapping",
+      "evidence library restructuring",
+      "PHI access logging",
+      "reporting efficiency"
+    ],
+    "reasoning": "The call primarily revolves around discussing compliance challenges faced by Evelyn's organization in preparation for an upcoming HIPAA audit. The conversation highlights the need for better integration and management of compliance evidence across multiple frameworks, specifically SOC 2 and HIPAA. Kevin provides technical recommendations to address these gaps and improve the compliance reporting process, indicating a focus on security and compliance advisory.",
+    "evidence_quotes": [
+      "we've got a HIPAA audit coming up in Q2",
+      "our current compliance reporting process is — it's painful",
+      "if I can collect evidence once and have it satisfy controls across multiple frameworks, that would be... I mean that would be huge for us."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "HIPAA audit preparation",
+      "multi-framework compliance",
+      "evidence management"
+    ],
+    "subthemes": [
+      "HIPAA compliance gaps",
+      "SOC 2 to HIPAA mapping",
+      "evidence library restructuring",
+      "PHI access logging",
+      "reporting efficiency"
+    ],
+    "reasoning": "The call primarily revolves around discussing compliance challenges faced by Evelyn's organization in preparation for an upcoming HIPAA audit. The conversation highlights the need for better integration and management of compliance evidence across multiple frameworks, specifically SOC 2 and HIPAA. Kevin provides technical recommendations to address these gaps and improve the compliance reporting process, indicating a focus on security and compliance advisory.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

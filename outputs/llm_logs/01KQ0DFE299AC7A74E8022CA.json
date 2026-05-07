@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "ISO 27001 preparation",
+      "compliance reporting",
+      "healthcare compliance"
+    ],
+    "subthemes": [
+      "evidence collection",
+      "continuous monitoring",
+      "multi-framework coverage",
+      "audit preparation",
+      "baseline reporting"
+    ],
+    "reasoning": "The call primarily revolves around supporting Redwood Clinical in their preparation for ISO 27001 certification. The discussion includes specific challenges they face, such as evidence collection and continuous monitoring, which are critical for compliance in the healthcare sector. The introduction of Comply v2's features, including on-demand reporting and multi-framework coverage, is aimed at addressing these challenges and facilitating a smoother audit process.",
+    "evidence_quotes": [
+      "our CISO has been breathing down my neck about ISO 27001 since like January",
+      "the auditors want to see a continuous thread of evidence, not just a snapshot",
+      "I feel like we actually have a path forward now, which is not how I felt last week."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "ISO 27001 preparation",
+      "compliance reporting",
+      "healthcare compliance"
+    ],
+    "subthemes": [
+      "evidence collection",
+      "continuous monitoring",
+      "multi-framework coverage",
+      "audit preparation",
+      "baseline reporting"
+    ],
+    "reasoning": "The call primarily revolves around supporting Redwood Clinical in their preparation for ISO 27001 certification. The discussion includes specific challenges they face, such as evidence collection and continuous monitoring, which are critical for compliance in the healthcare sector. The introduction of Comply v2's features, including on-demand reporting and multi-framework coverage, is aimed at addressing these challenges and facilitating a smoother audit process.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

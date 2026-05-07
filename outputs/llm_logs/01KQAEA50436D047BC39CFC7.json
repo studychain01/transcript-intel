@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal discussion",
+      "pricing strategy",
+      "compliance features"
+    ],
+    "subthemes": [
+      "contract renewal",
+      "pricing adjustments",
+      "multi-framework reporting",
+      "data growth impact",
+      "support ticket resolution"
+    ],
+    "reasoning": "The call primarily revolves around the upcoming renewal of Crestline Wealth's contract, discussing pricing adjustments due to data growth and the introduction of new compliance features. Maria and Derek are focused on ensuring the value of the service is communicated effectively to Derek's CFO, while also addressing any concerns related to support and service reliability. The conversation highlights the importance of the renewal terms and the need for a clear comparison quote to facilitate internal discussions.",
+    "evidence_quotes": [
+      "I want to make sure we're not scrambling at the last minute on this.",
+      "We're mostly just, uh, trying to make sure the value story holds up when I present it internally.",
+      "I appreciate you being straightforward about the internal dynamics — that actually helps me put together the right package for you."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal discussion",
+      "pricing strategy",
+      "compliance features"
+    ],
+    "subthemes": [
+      "contract renewal",
+      "pricing adjustments",
+      "multi-framework reporting",
+      "data growth impact",
+      "support ticket resolution"
+    ],
+    "reasoning": "The call primarily revolves around the upcoming renewal of Crestline Wealth's contract, discussing pricing adjustments due to data growth and the introduction of new compliance features. Maria and Derek are focused on ensuring the value of the service is communicated effectively to Derek's CFO, while also addressing any concerns related to support and service reliability. The conversation highlights the importance of the renewal terms and the need for a clear comparison quote to facilitate internal discussions.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

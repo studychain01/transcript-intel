@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "competitive displacement",
+      "customer retention",
+      "post-mortem analysis"
+    ],
+    "subthemes": [
+      "platform outage impact",
+      "customer communication strategy",
+      "liability concerns",
+      "competitive threats",
+      "remediation efforts"
+    ],
+    "reasoning": "The call focuses on addressing the fallout from a significant platform outage that has led to competitive threats and concerns about customer retention. The team discusses strategies to communicate transparently with affected customers while also countering competitor narratives. They are particularly concerned about a potential liability issue raised by a customer who claims a security incident occurred during the outage, which adds urgency to their customer success efforts.",
+    "evidence_quotes": [
+      "The outage last week was bad.",
+      "Hartfield Financial mentioned that SentinelShield had already been in contact with their procurement team.",
+      "We want to get in front of them with the post-mortem and remediation story now."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "competitive displacement",
+      "customer retention",
+      "post-mortem analysis"
+    ],
+    "subthemes": [
+      "platform outage impact",
+      "customer communication strategy",
+      "liability concerns",
+      "competitive threats",
+      "remediation efforts"
+    ],
+    "reasoning": "The call focuses on addressing the fallout from a significant platform outage that has led to competitive threats and concerns about customer retention. The team discusses strategies to communicate transparently with affected customers while also countering competitor narratives. They are particularly concerned about a potential liability issue raised by a customer who claims a security incident occurred during the outage, which adds urgency to their customer success efforts.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "quarterly business review",
+      "renewal discussion",
+      "compliance needs"
+    ],
+    "subthemes": [
+      "Aegis Comply v2 release",
+      "SOC 2 readiness",
+      "renewal pricing discussion",
+      "disaster recovery drill",
+      "customer satisfaction"
+    ],
+    "reasoning": "The call is fundamentally about reviewing the customer's experience with the Aegis platform, discussing their satisfaction, and planning for the upcoming renewal. Yuki expresses strong satisfaction with the platform's performance, particularly regarding compliance and disaster recovery, which are critical for their operations. The conversation also includes a focus on the upcoming product release that could impact their renewal decision, indicating a proactive approach to customer success and retention.",
+    "evidence_quotes": [
+      "Aegis Detect, hands down. The threat monitoring visibility we have now compared to what we were doing before — it's night and day.",
+      "Wait, on-demand SOC 2 reporting? Like, I can just... generate it when an enterprise prospect asks for it?",
+      "I do want to have a conversation about pricing though, not because I'm unhappy, just because my budget situation going into next year is a little tighter."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "quarterly business review",
+      "renewal discussion",
+      "compliance needs"
+    ],
+    "subthemes": [
+      "Aegis Comply v2 release",
+      "SOC 2 readiness",
+      "renewal pricing discussion",
+      "disaster recovery drill",
+      "customer satisfaction"
+    ],
+    "reasoning": "The call is fundamentally about reviewing the customer's experience with the Aegis platform, discussing their satisfaction, and planning for the upcoming renewal. Yuki expresses strong satisfaction with the platform's performance, particularly regarding compliance and disaster recovery, which are critical for their operations. The conversation also includes a focus on the upcoming product release that could impact their renewal decision, indicating a proactive approach to customer success and retention.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

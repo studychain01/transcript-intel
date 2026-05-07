@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "churn risk",
+      "vendor evaluation",
+      "contract renewal"
+    ],
+    "subthemes": [
+      "outage impact",
+      "alert fatigue",
+      "technical session planning",
+      "product confidence",
+      "compliance reporting"
+    ],
+    "reasoning": "The call centers around Brightpath's evaluation of Aegis as a security vendor, particularly in light of a recent outage that has raised concerns about reliability and alert management. Kendra is considering switching to a competitor, SentinelShield, due to these issues, but is open to a technical session to address specific concerns before making a final decision. The conversation highlights the importance of demonstrating product reliability and addressing customer concerns to retain their business during the upcoming contract renewal.",
+    "evidence_quotes": [
+      "we've been doing a broader security vendor evaluation",
+      "six hours where we had zero threat monitoring visibility",
+      "I need to see it, not just hear about it."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "churn risk",
+      "vendor evaluation",
+      "contract renewal"
+    ],
+    "subthemes": [
+      "outage impact",
+      "alert fatigue",
+      "technical session planning",
+      "product confidence",
+      "compliance reporting"
+    ],
+    "reasoning": "The call centers around Brightpath's evaluation of Aegis as a security vendor, particularly in light of a recent outage that has raised concerns about reliability and alert management. Kendra is considering switching to a competitor, SentinelShield, due to these issues, but is open to a technical session to address specific concerns before making a final decision. The conversation highlights the importance of demonstrating product reliability and addressing customer concerns to retain their business during the upcoming contract renewal.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

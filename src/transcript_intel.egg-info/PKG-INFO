@@ -1,0 +1,149 @@
+Metadata-Version: 2.4
+Name: transcript-intel
+Version: 0.1.0
+Summary: Transcript Intelligence take-home scaffold
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: pyarrow>=14.0
+Provides-Extra: notebook
+Requires-Dist: jupyter>=1.0; extra == "notebook"
+Requires-Dist: ipykernel>=6.0; extra == "notebook"
+Requires-Dist: matplotlib>=3.7; extra == "notebook"
+Requires-Dist: seaborn>=0.13; extra == "notebook"
+Provides-Extra: llm
+Requires-Dist: langchain-core>=0.3; extra == "llm"
+Requires-Dist: langchain-openai>=0.2; extra == "llm"
+Requires-Dist: pydantic>=2.0; extra == "llm"
+
+# Transcript Intelligence (take-home scaffold)
+
+Hybrid pipeline: ingest JSON under `dataset/`, enrich with call type + sentiment + (optional) LLM categories, write `outputs/meetings.parquet`.
+
+## Taxonomy (data-driven)
+
+**Why not only an LLM?** The assignment asks for categories you *identified* and *reasoning*. This repo uses a **hybrid**: (1) **data-driven taxonomy** grounded in the sample corpus, (2) **rule-based** `call_type` from titles (see `call_type.py`), (3) **LLM** to assign each transcript into the fixed labels with evidence quotes (`classify_llm.py` — you implement the API call). Optional clustering can further *validate* these buckets later.
+
+### How the labels were chosen (evidence)
+
+Two passes over all ~100 meetings under `dataset/`:
+
+1. **`summary.json` → `topics` arrays** — Every topic string was lowercased and counted across meetings. Recurring themes (frequency in parentheses) included:
+   - **compliance** (23), **compliance reporting** (19) → regulatory / audit work
+   - **renewal** (17), **churn risk** (14) → commercial health
+   - **onboarding** (9) → time-to-value / deployment
+   - **incident response** (8), **outage** (8), **platform outage** (5), **service outage** (5) → operational incidents
+   - **feature request** (6), **product roadmap** (5), **roadmap planning** (4) → product direction
+   - **identity management** (5) → IAM
+   - **billing dispute** (4), plus titles with *Invoice*, *Overage*, *Billing* → commercial billing
+   - **audit preparation** (4), **HIPAA** / **PCI** / **SOC 2** in topics → audit frameworks
+   - **sprint planning** (5) and titles like *Weekly Engineering Standup*, *All Hands*, *Win/Loss* → internal coordination
+
+2. **`meeting-info.json` → `title`** — Product lines and workflows appear by name: **Protect** (e.g. granular restore, backup performance), **Detect** (alerts, outages, dashboards), **Comply v2** (preview, deployment kickoff, report formatting), **Identity** (SSO, SAML, SCIM, LDAP), **Support Case #** (operational troubleshooting across domains).
+
+From that, **ten thematic categories + `Other`** were defined so each is **mutually motivated by the corpus** (not generic placeholders). **`Comply (GRC product)`** is separate from **`Compliance & audit readiness`** because the dataset mixes *customer/regulatory posture* with the *Comply product module* (titles and topics both distinguish this).
+
+### Category list → example transcripts
+
+Use these `meeting_id` folders under `dataset/` when illustrating each category in slides or the notebook:
+
+| Category | Example `meeting_id` | Title (evidence) |
+|----------|----------------------|------------------|
+| **Billing & invoicing** | `01KQ0C1280EDA4E70AAD7C35` | Support Case #9279 - Summit Trust Billing Inquiry |
+| | `01KQ773D68723289E4A98889` | Support Case #7572 - Brightpath Commerce Invoice Discrepancy |
+| **Renewals, contracts & competitive strategy** | `01KQ7FA71CF70FAFEE4B6251` | Aegis / Nova Retail Group - Renewal Discussion |
+| | `01KQ6CAA850EAFDC48B52846` | Aegis / Ironworks Corp - Vendor Comparison Discussion |
+| **Compliance & audit readiness** | `01KQ85D10E82A26A8F754FB8` | Aegis / Bridgeport Health - Compliance Review |
+| | `01KQB95605C6F873C6036285` | Aegis / Forge Industries - PCI DSS Compliance Review |
+| **Comply (GRC product)** | `01KQ54917E3931712516916D` | Aegis / Nimbus Platform - Comply v2 Preview |
+| | `01KQ38FE02AEE5AA5157F042` | Support Case #3296 - Pinnacle Insurance Comply v2 Report Formatting Issue |
+| **Backup & recovery (Protect)** | `01KQ25D8AED944B5D2A9FF60` | Support Case #1514 - Meridian Capital Granular Restore Request |
+| | `01KQD1270E98A7DFC55ADCF8` | Protect Performance - Scalability Concerns |
+| **Detect, incidents & alerting** | `01KQ2D93184912F0147315E7` | URGENT: Blackridge Investments - Complete Loss of Threat Visibility |
+| | `01KQ38C4101D6774F2F02331` | INCIDENT: Detect Pipeline Failure - War Room |
+| **Identity & access** | `01KQADC32D89E2B76B698E84` | Support Case #6635 - Nova Retail Group SSO Login Failures |
+| | `01KQ5F364545B542671FF9CE` | Support Case #3546 - Meridian Capital SCIM Provisioning Request |
+| **Onboarding & deployment** | `01KQ9BB82FD97C9607D57E90` | Aegis / Coastal Living Co - Onboarding Kickoff |
+| | `01KQ4D01DCB15C69672AB5AF` | Aegis / Clearwater Medical - Comply v2 Deployment Kickoff |
+| **Product feedback & roadmap** | `01KQ65D43540846FA994B6C4` | Aegis / Frostbyte AI - Product Feedback |
+| | `01KQ8D9A06510DD623EFB1A6` | Aegis / Pinnacle Insurance - Detect Roadmap Review |
+| **Internal planning & coordination** | `01KQ445B1B5B890316C9E300` | Weekly Engineering Standup |
+| | `01KQ4529010F423FD9DB40BD` | Win/Loss Analysis - Q1 |
+| **Other** | — | Reserve for calls that do not fit cleanly after LLM + review |
+
+Canonical strings for code live in `src/transcript_intel/taxonomy.py` (`TAXONOMY` and `normalize_category_label`).
+
+---
+
+## Setup
+
+From this directory (`interview-assignment/`):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e .
+pip install -r requirements.txt
+```
+
+Or without editable install:
+
+```bash
+pip install -r requirements.txt
+export PYTHONPATH=src
+```
+
+## Run pipeline
+
+```bash
+# Editable install (recommended)
+python -m transcript_intel.pipeline
+```
+
+Writes:
+
+- `outputs/meetings.parquet`
+- `outputs/meetings.csv`
+- Ensures `outputs/figures/` and `outputs/llm_logs/` exist
+
+Override paths:
+
+```bash
+export TRANSCRIPT_INTEL_DATASET=/path/to/dataset
+export TRANSCRIPT_INTEL_OUTPUT=/path/to/outputs
+```
+
+## Notebook
+
+Open `notebooks/02_analysis.ipynb` after running the pipeline (or run cells to call `run_pipeline()`).
+
+## Package layout
+
+| Module | Your focus |
+|--------|------------|
+| `load.py` | Folder walk + JSON load |
+| `normalize.py` | Flatten fields, transcript truncation |
+| `call_type.py` | Title → `call_type` rules |
+| `taxonomy.py` | `TAXONOMY`, `normalize_category_label` |
+| `sentiment_agg.py` | Proportions, trajectory thirds, label thresholds |
+| `classify_llm.py` | LangChain structured output + taxonomy normalization + logs |
+| `insights.py` | Part 3 metrics |
+| `pipeline.py` | Orchestration |
+
+## LLM classification
+
+Uses **LangChain** (`langchain-openai`) with **`ChatOpenAI.with_structured_output(Pydantic)`** so the model returns a validated `ClassificationLLMOutput` instead of hand-rolled `json.loads` and markdown stripping.
+
+```bash
+pip install langchain-openai
+export OPENAI_API_KEY=sk-...
+# optional: export OPENAI_MODEL=gpt-4o-mini
+python -m transcript_intel.pipeline
+```
+
+Parsed payloads and normalized fields are logged under `outputs/llm_logs/{meeting_id}.json` (evidence quotes omitted from the `normalized` blob to keep files smaller).
+
+## Secrets
+
+Do not commit API keys. Use `.env` locally (see `.env.example`) and `export` before runs.

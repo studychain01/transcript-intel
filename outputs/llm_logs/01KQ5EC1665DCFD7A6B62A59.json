@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "SAML certificate issues",
+      "platform reliability concerns"
+    ],
+    "subthemes": [
+      "SAML certificate rotation bug",
+      "authentication failures",
+      "manual workaround",
+      "service provider connections",
+      "customer reliability feedback"
+    ],
+    "reasoning": "The call revolves around a critical technical issue related to SAML certificate rotation that is affecting a large portion of the customer's workforce. The support team is addressing a known bug in the Aegis Identity platform that has caused authentication failures, leading to significant operational disruptions for the customer. The conversation also highlights the customer's frustration with the platform's reliability and the need for a manual workaround to resolve the issue.",
+    "evidence_quotes": [
+      "we rotated our SAML signing certificate yesterday, standard procedure",
+      "we are aware of a bug that was introduced in the 3.4.1 release",
+      "I want to make sure someone is having that bigger conversation with you."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "SAML certificate issues",
+      "platform reliability concerns"
+    ],
+    "subthemes": [
+      "SAML certificate rotation bug",
+      "authentication failures",
+      "manual workaround",
+      "service provider connections",
+      "customer reliability feedback"
+    ],
+    "reasoning": "The call revolves around a critical technical issue related to SAML certificate rotation that is affecting a large portion of the customer's workforce. The support team is addressing a known bug in the Aegis Identity platform that has caused authentication failures, leading to significant operational disruptions for the customer. The conversation also highlights the customer's frustration with the platform's reliability and the need for a manual workaround to resolve the issue.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

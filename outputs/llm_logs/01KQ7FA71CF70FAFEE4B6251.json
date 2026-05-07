@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal risk",
+      "service outage",
+      "compliance issues",
+      "competitive evaluation"
+    ],
+    "subthemes": [
+      "service outage impact",
+      "compliance reporting challenges",
+      "support ticket resolution delays",
+      "competitive analysis with SentinelShield"
+    ],
+    "reasoning": "The call primarily revolves around a renewal discussion where the customer expresses significant dissatisfaction due to a recent service outage and ongoing compliance reporting issues. The customer is evaluating competitors, indicating a risk of churn, while the CSM outlines remediation steps and upcoming product improvements to address these concerns. The conversation highlights the importance of rebuilding trust and ensuring the customer feels confident in renewing their contract.",
+    "evidence_quotes": [
+      "We're not in a great place right now.",
+      "Six hours is not a blip, Aisha. That's a liability.",
+      "Generating those reports out of Aegis Comply is... it's manual, it's painful."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal risk",
+      "service outage",
+      "compliance issues",
+      "competitive evaluation"
+    ],
+    "subthemes": [
+      "service outage impact",
+      "compliance reporting challenges",
+      "support ticket resolution delays",
+      "competitive analysis with SentinelShield"
+    ],
+    "reasoning": "The call primarily revolves around a renewal discussion where the customer expresses significant dissatisfaction due to a recent service outage and ongoing compliance reporting issues. The customer is evaluating competitors, indicating a risk of churn, while the CSM outlines remediation steps and upcoming product improvements to address these concerns. The conversation highlights the importance of rebuilding trust and ensuring the customer feels confident in renewing their contract.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

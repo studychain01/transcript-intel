@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "onboarding",
+      "sso configuration",
+      "mfa policy",
+      "contractor access controls"
+    ],
+    "subthemes": [
+      "Okta migration",
+      "conditional access policies",
+      "user attribute mapping",
+      "MFA requirements",
+      "SSO consolidation"
+    ],
+    "reasoning": "The call is focused on the onboarding process for Aegis Identity, specifically addressing the setup of Single Sign-On (SSO) and Multi-Factor Authentication (MFA) policies. The customers are migrating from Okta and are looking to improve their identity access management, particularly for differentiating access controls between contractors and full-time employees. The discussion includes timelines for implementation and specific requirements for the identity module setup.",
+    "evidence_quotes": [
+      "the SSO piece is probably our biggest priority right now",
+      "we've been pretty underwhelmed with it honestly",
+      "we want to enforce hardware keys for anything touching production systems"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "onboarding",
+      "sso configuration",
+      "mfa policy",
+      "contractor access controls"
+    ],
+    "subthemes": [
+      "Okta migration",
+      "conditional access policies",
+      "user attribute mapping",
+      "MFA requirements",
+      "SSO consolidation"
+    ],
+    "reasoning": "The call is focused on the onboarding process for Aegis Identity, specifically addressing the setup of Single Sign-On (SSO) and Multi-Factor Authentication (MFA) policies. The customers are migrating from Okta and are looking to improve their identity access management, particularly for differentiating access controls between contractors and full-time employees. The discussion includes timelines for implementation and specific requirements for the identity module setup.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "launch readiness",
+      "compliance reporting",
+      "documentation issues"
+    ],
+    "subthemes": [
+      "HIPAA reporting issues",
+      "ISO 27001 formatting",
+      "API rate limiting",
+      "customer documentation",
+      "incident impact"
+    ],
+    "reasoning": "The call primarily focuses on the launch readiness of Comply v2, discussing various operational aspects such as compliance reporting, documentation, and the impact of a recent incident on project timelines. The participants are aligning on deadlines and addressing specific issues related to HIPAA and ISO 27001 reporting, as well as customer-facing documentation that poses a risk to the launch. They also touch on API functionality and rate limiting, indicating a comprehensive review of the product's readiness for release.",
+    "evidence_quotes": [
+      "So the main thing I wanted to go through today is just the launch readiness checklist for Comply v2.",
+      "The HIPAA and ISO 27001 report generation — those are still being validated in staging and we've got some edge cases we're still working through.",
+      "I checked in with the content team yesterday and the HIPAA and ISO 27001 user guides are still in first draft."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "launch readiness",
+      "compliance reporting",
+      "documentation issues"
+    ],
+    "subthemes": [
+      "HIPAA reporting issues",
+      "ISO 27001 formatting",
+      "API rate limiting",
+      "customer documentation",
+      "incident impact"
+    ],
+    "reasoning": "The call primarily focuses on the launch readiness of Comply v2, discussing various operational aspects such as compliance reporting, documentation, and the impact of a recent incident on project timelines. The participants are aligning on deadlines and addressing specific issues related to HIPAA and ISO 27001 reporting, as well as customer-facing documentation that poses a risk to the launch. They also touch on API functionality and rate limiting, indicating a comprehensive review of the product's readiness for release.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "compliance reporting",
+      "feature request",
+      "product release"
+    ],
+    "subthemes": [
+      "multi-framework compliance",
+      "early access inquiry",
+      "automatic tenant upgrades",
+      "custom control labeling"
+    ],
+    "reasoning": "The call primarily revolves around Forge Industries' inquiry about early access to Comply v2, which is crucial for their compliance reporting across multiple frameworks. The discussion includes details about the upcoming product release, the features it offers, and a specific feature request related to custom control labeling. The support team provides information on the product's capabilities and addresses the customer's needs for compliance reporting.",
+    "evidence_quotes": [
+      "we do SOC 2, we're getting into HIPAA because we've got a new healthcare adjacent part of the business",
+      "the GA launch is actually scheduled for April 7th, so that's like, what, four days from now",
+      "we had been thinking about requesting some features around, um, custom control labeling within the reports."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "compliance reporting",
+      "feature request",
+      "product release"
+    ],
+    "subthemes": [
+      "multi-framework compliance",
+      "early access inquiry",
+      "automatic tenant upgrades",
+      "custom control labeling"
+    ],
+    "reasoning": "The call primarily revolves around Forge Industries' inquiry about early access to Comply v2, which is crucial for their compliance reporting across multiple frameworks. The discussion includes details about the upcoming product release, the features it offers, and a specific feature request related to custom control labeling. The support team provides information on the product's capabilities and addresses the customer's needs for compliance reporting.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

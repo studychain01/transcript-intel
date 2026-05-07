@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing dispute",
+      "product migration",
+      "outage impact"
+    ],
+    "subthemes": [
+      "overage charges",
+      "alert misconfiguration",
+      "compliance reporting"
+    ],
+    "reasoning": "The call primarily revolves around a billing dispute concerning unexpected overage charges related to the Comply and Detect modules. The customer, Clearwater Medical, is contesting these charges due to a lack of notification about exceeding report generation limits and potential billing errors linked to a previous outage. The support team is committed to investigating these issues and providing a resolution.",
+    "evidence_quotes": [
+      "we got our April invoice and there are overage charges totaling just over four thousand dollars that I do not understand",
+      "I had absolutely no warning that I was going to blow past some threshold and rack up thousands of dollars in charges",
+      "we might be getting charged for the retry traffic that your system generated because of your own outage."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing dispute",
+      "product migration",
+      "outage impact"
+    ],
+    "subthemes": [
+      "overage charges",
+      "alert misconfiguration",
+      "compliance reporting"
+    ],
+    "reasoning": "The call primarily revolves around a billing dispute concerning unexpected overage charges related to the Comply and Detect modules. The customer, Clearwater Medical, is contesting these charges due to a lack of notification about exceeding report generation limits and potential billing errors linked to a previous outage. The support team is committed to investigating these issues and providing a resolution.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

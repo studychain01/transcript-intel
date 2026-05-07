@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "alert latency",
+      "incident communication",
+      "sla breach"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "cyber insurance reporting",
+      "service credits",
+      "operational technology"
+    ],
+    "reasoning": "The call primarily revolves around a technical issue with the Aegis Detect product, specifically a significant delay in alert notifications due to a cascading failure on the provider's side. The customer, Ridgeline Logistics, is concerned about the implications of this delay on their operational technology and potential SLA violations. The support representative acknowledges the issue and discusses next steps for resolution and communication, indicating a focus on customer support and technical escalation.",
+    "evidence_quotes": [
+      "we started noticing that alerts are coming in with a significant lag.",
+      "this is on our side.",
+      "this is a significant breach of the SLA as far as I'm concerned."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "alert latency",
+      "incident communication",
+      "sla breach"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "cyber insurance reporting",
+      "service credits",
+      "operational technology"
+    ],
+    "reasoning": "The call primarily revolves around a technical issue with the Aegis Detect product, specifically a significant delay in alert notifications due to a cascading failure on the provider's side. The customer, Ridgeline Logistics, is concerned about the implications of this delay on their operational technology and potential SLA violations. The support representative acknowledges the issue and discusses next steps for resolution and communication, indicating a focus on customer support and technical escalation.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "product launch",
+      "adoption metrics",
+      "customer feedback",
+      "cross-sell opportunities"
+    ],
+    "subthemes": [
+      "adoption rates",
+      "support volume",
+      "ISO 27001 formatting issue",
+      "cross-sell signals",
+      "GDPR roadmap"
+    ],
+    "reasoning": "The call focuses on the review of the Comply v2 launch, specifically discussing adoption metrics, customer feedback, and potential upsell opportunities. The team is analyzing how well the product is being received and how it can lead to further sales of related services. They also address minor technical issues and plan for future enhancements based on customer needs.",
+    "evidence_quotes": [
+      "we've had 847 unique tenants generate at least one on-demand report",
+      "the compliance report essentially becomes a gap analysis for them",
+      "GDPR is definitely on the roadmap"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "product launch",
+      "adoption metrics",
+      "customer feedback",
+      "cross-sell opportunities"
+    ],
+    "subthemes": [
+      "adoption rates",
+      "support volume",
+      "ISO 27001 formatting issue",
+      "cross-sell signals",
+      "GDPR roadmap"
+    ],
+    "reasoning": "The call focuses on the review of the Comply v2 launch, specifically discussing adoption metrics, customer feedback, and potential upsell opportunities. The team is analyzing how well the product is being received and how it can lead to further sales of related services. They also address minor technical issues and plan for future enhancements based on customer needs.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

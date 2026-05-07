@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing dispute",
+      "seat overage",
+      "migration cleanup"
+    ],
+    "subthemes": [
+      "billing adjustment request",
+      "bulk deprovisioning",
+      "usage threshold alerts"
+    ],
+    "reasoning": "The call revolves around a billing discrepancy related to the number of provisioned seats for Aegis Identity. Gregory Fisk, the IT Director, is inquiring about an overage charge on their invoice due to test accounts created during a migration that were not deprovisioned. The support representative, Sarah Chen, assists in identifying the root cause and discusses the process for submitting a billing adjustment request.",
+    "evidence_quotes": [
+      "it's showing a charge for 1,400 seats under Aegis Identity, but we only have 1,200 licensed users.",
+      "the overage was driven by non-production test accounts that weren't deprovisioned post-migration",
+      "there's a bulk deprovision option in the Aegis Identity admin console"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing dispute",
+      "seat overage",
+      "migration cleanup"
+    ],
+    "subthemes": [
+      "billing adjustment request",
+      "bulk deprovisioning",
+      "usage threshold alerts"
+    ],
+    "reasoning": "The call revolves around a billing discrepancy related to the number of provisioned seats for Aegis Identity. Gregory Fisk, the IT Director, is inquiring about an overage charge on their invoice due to test accounts created during a migration that were not deprovisioned. The support representative, Sarah Chen, assists in identifying the root cause and discusses the process for submitting a billing adjustment request.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

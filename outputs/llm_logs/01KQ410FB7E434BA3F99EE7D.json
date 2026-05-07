@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "contract negotiation",
+      "customer satisfaction",
+      "API integration"
+    ],
+    "subthemes": [
+      "multi-year renewal",
+      "elastic seat model",
+      "API rate limits",
+      "compliance reporting",
+      "platform outage"
+    ],
+    "reasoning": "The call centers around a renewal discussion for a multi-year contract, where the customer expresses satisfaction with the platform while addressing past issues like a service outage. The conversation also delves into specific contract terms, including an elastic seat model to accommodate future growth and the introduction of an enterprise API tier to resolve integration challenges. Overall, the focus is on ensuring a smooth renewal process and enhancing the customer's experience with the product.",
+    "evidence_quotes": [
+      "we've been really happy with the platform overall.",
+      "the pricing looks competitive.",
+      "we did get outreach from SentinelShield and VaultEdge this quarter."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "contract negotiation",
+      "customer satisfaction",
+      "API integration"
+    ],
+    "subthemes": [
+      "multi-year renewal",
+      "elastic seat model",
+      "API rate limits",
+      "compliance reporting",
+      "platform outage"
+    ],
+    "reasoning": "The call centers around a renewal discussion for a multi-year contract, where the customer expresses satisfaction with the platform while addressing past issues like a service outage. The conversation also delves into specific contract terms, including an elastic seat model to accommodate future growth and the introduction of an enterprise API tier to resolve integration challenges. Overall, the focus is on ensuring a smooth renewal process and enhancing the customer's experience with the product.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage post-mortem",
+      "pipeline reliability",
+      "detection tuning",
+      "competitor evaluation"
+    ],
+    "subthemes": [
+      "single point of failure",
+      "alerting issues",
+      "manual log review",
+      "false positives",
+      "remediation proposal"
+    ],
+    "reasoning": "The call centers around a significant outage in Helix's threat monitoring pipeline, which was caused by a single point of failure in Aegis's system. The discussion focuses on the impact of this incident, including the lack of timely alerts and the subsequent manual review required by Helix's team. Aegis is committed to addressing these issues through technical fixes and a proposal to rebuild trust with Helix.",
+    "evidence_quotes": [
+      "'Your team should not have experienced what happened'",
+      "'We had zero threat monitoring visibility. None.'",
+      "'I need to see that this kind of failure mode is genuinely off the table going forward.'"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage post-mortem",
+      "pipeline reliability",
+      "detection tuning",
+      "competitor evaluation"
+    ],
+    "subthemes": [
+      "single point of failure",
+      "alerting issues",
+      "manual log review",
+      "false positives",
+      "remediation proposal"
+    ],
+    "reasoning": "The call centers around a significant outage in Helix's threat monitoring pipeline, which was caused by a single point of failure in Aegis's system. The discussion focuses on the impact of this incident, including the lack of timely alerts and the subsequent manual review required by Helix's team. Aegis is committed to addressing these issues through technical fixes and a proposal to rebuild trust with Helix.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

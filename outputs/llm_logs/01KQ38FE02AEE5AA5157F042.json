@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "product bug",
+      "compliance reporting",
+      "pdf rendering",
+      "new release issue",
+      "audit deadline"
+    ],
+    "subthemes": [
+      "section header text truncation",
+      "table pagination issue",
+      "incorrect page count",
+      "PDF generation defect",
+      "SOC 2 report issue"
+    ],
+    "reasoning": "The call revolves around a customer reporting multiple formatting issues with a newly launched PDF report generation feature. The support agent confirms the bugs and commits to escalating the issue to engineering with high priority due to an impending internal audit review. The conversation highlights the urgency of resolving these rendering defects to ensure compliance reporting is accurate and timely.",
+    "evidence_quotes": [
+      "the output is just... it's not right.",
+      "the section headers in the PDF export are getting cut off.",
+      "the page count in the footer isn't matching the actual document length."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "product bug",
+      "compliance reporting",
+      "pdf rendering",
+      "new release issue",
+      "audit deadline"
+    ],
+    "subthemes": [
+      "section header text truncation",
+      "table pagination issue",
+      "incorrect page count",
+      "PDF generation defect",
+      "SOC 2 report issue"
+    ],
+    "reasoning": "The call revolves around a customer reporting multiple formatting issues with a newly launched PDF report generation feature. The support agent confirms the bugs and commits to escalating the issue to engineering with high priority due to an impending internal audit review. The conversation highlights the urgency of resolving these rendering defects to ensure compliance reporting is accurate and timely.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

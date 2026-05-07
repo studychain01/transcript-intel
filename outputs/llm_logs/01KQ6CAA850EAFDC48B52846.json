@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "trust recovery",
+      "compliance reporting",
+      "vendor evaluation"
+    ],
+    "subthemes": [
+      "outage impact",
+      "communication failures",
+      "ISO 27001 compliance",
+      "SLA negotiation",
+      "competitive threat"
+    ],
+    "reasoning": "The call centers around addressing significant concerns from the customer regarding Aegis's performance, particularly following a major outage that affected their operations. The discussion highlights the need for improved communication and compliance reporting, as well as the customer's evaluation of a competitor due to these issues. The conversation aims to rebuild trust and ensure that the customer's requirements are met moving forward.",
+    "evidence_quotes": [
+      "we've been having some pretty serious conversations internally about whether Aegis is still the right fit for us.",
+      "the communication piece is what really stung.",
+      "we need to feel like Aegis has its house in order."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "trust recovery",
+      "compliance reporting",
+      "vendor evaluation"
+    ],
+    "subthemes": [
+      "outage impact",
+      "communication failures",
+      "ISO 27001 compliance",
+      "SLA negotiation",
+      "competitive threat"
+    ],
+    "reasoning": "The call centers around addressing significant concerns from the customer regarding Aegis's performance, particularly following a major outage that affected their operations. The discussion highlights the need for improved communication and compliance reporting, as well as the customer's evaluation of a competitor due to these issues. The conversation aims to rebuild trust and ensure that the customer's requirements are met moving forward.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

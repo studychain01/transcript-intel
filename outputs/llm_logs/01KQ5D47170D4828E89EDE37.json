@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage recovery",
+      "incident root cause",
+      "data integrity"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "architectural remediation",
+      "post-incident report"
+    ],
+    "reasoning": "The call primarily revolves around the recovery from a significant outage affecting the Detect platform, where the customer lost visibility for a period due to a failure in the event processing pipeline. The support representative discusses the root cause of the outage, the architectural changes made to prevent future occurrences, and the need for documentation to satisfy the customer's internal compliance requirements. The conversation also touches on the recovery process and the confirmation of system health post-incident.",
+    "evidence_quotes": [
+      "the root cause was a cascading failure in the event processing pipeline",
+      "we lost visibility for, what, around six hours",
+      "I'll target getting that to you by end of week."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage recovery",
+      "incident root cause",
+      "data integrity"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "architectural remediation",
+      "post-incident report"
+    ],
+    "reasoning": "The call primarily revolves around the recovery from a significant outage affecting the Detect platform, where the customer lost visibility for a period due to a failure in the event processing pipeline. The support representative discusses the root cause of the outage, the architectural changes made to prevent future occurrences, and the need for documentation to satisfy the customer's internal compliance requirements. The conversation also touches on the recovery process and the confirmation of system health post-incident.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

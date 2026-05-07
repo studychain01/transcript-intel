@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage management",
+      "customer communication",
+      "technical debt"
+    ],
+    "subthemes": [
+      "pipeline failure",
+      "data loss",
+      "customer escalation",
+      "systemic process issues",
+      "temporary fixes"
+    ],
+    "reasoning": "The call is centered around a critical incident involving a complete failure of the Detect event processing pipeline, which has led to significant customer escalations and concerns about data loss. The team discusses the technical failure, the lack of redundancy in the system, and the immediate actions needed to address customer concerns and restore service. The conversation highlights the urgency of communication with affected customers and the need for a post-mortem to address the underlying issues.",
+    "evidence_quotes": [
+      "the ingestion layer just... stopped.",
+      "we're still down as of this call.",
+      "this is not a breach. That's the most important thing to communicate right now."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage management",
+      "customer communication",
+      "technical debt"
+    ],
+    "subthemes": [
+      "pipeline failure",
+      "data loss",
+      "customer escalation",
+      "systemic process issues",
+      "temporary fixes"
+    ],
+    "reasoning": "The call is centered around a critical incident involving a complete failure of the Detect event processing pipeline, which has led to significant customer escalations and concerns about data loss. The team discusses the technical failure, the lack of redundancy in the system, and the immediate actions needed to address customer concerns and restore service. The conversation highlights the urgency of communication with affected customers and the need for a post-mortem to address the underlying issues.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

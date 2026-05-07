@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "platform outage",
+      "incident communication",
+      "pci compliance",
+      "fraud monitoring"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "cascading failure",
+      "lack of proactive communication",
+      "contract renewal risk"
+    ],
+    "reasoning": "The call revolves around a significant technical issue affecting the Aegis Detect platform, which has resulted in a complete outage of threat detection alerts for the customer, Trailhead Marketplace. Isaac Brennan expresses frustration over the lack of communication regarding the outage and its implications for PCI compliance and fraud monitoring. The support team acknowledges the issue and escalates the case while committing to provide updates and a formal incident report, highlighting the urgency of the situation for the customer's business continuity.",
+    "evidence_quotes": [
+      "I am not happy right now.",
+      "We have PCI obligations, we have fraud monitoring that depends on Detect firing in near real-time.",
+      "I want a full incident report. I want it in writing, I want root cause, I want timeline."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "platform outage",
+      "incident communication",
+      "pci compliance",
+      "fraud monitoring"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "cascading failure",
+      "lack of proactive communication",
+      "contract renewal risk"
+    ],
+    "reasoning": "The call revolves around a significant technical issue affecting the Aegis Detect platform, which has resulted in a complete outage of threat detection alerts for the customer, Trailhead Marketplace. Isaac Brennan expresses frustration over the lack of communication regarding the outage and its implications for PCI compliance and fraud monitoring. The support team acknowledges the issue and escalates the case while committing to provide updates and a formal incident report, highlighting the urgency of the situation for the customer's business continuity.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

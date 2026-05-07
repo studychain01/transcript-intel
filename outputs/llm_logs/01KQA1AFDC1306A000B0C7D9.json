@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "healthcare data management",
+      "backup strategy",
+      "HIPAA compliance"
+    ],
+    "subthemes": [
+      "hybrid backup strategy",
+      "disaster recovery testing",
+      "data retention policies",
+      "unified backup visibility"
+    ],
+    "reasoning": "The call focuses on onboarding Vanta Health to Aegis Protect's backup and recovery solutions, addressing their specific needs in a hybrid environment. Key discussions include compliance with HIPAA regulations, the need for unified backup visibility, and the importance of testing recovery objectives. The conversation highlights the challenges faced by Vanta Health in managing their backup strategy and the solutions Aegis Protect can provide to improve their processes.",
+    "evidence_quotes": [
+      "backup and recovery has been kind of a sore subject for us internally",
+      "we've got roughly four hundred and fifty virtual machines across our on-prem data centers",
+      "I want to be able to walk into my CISO's office and say look, we have tested this, we know it works, here's the evidence"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "healthcare data management",
+      "backup strategy",
+      "HIPAA compliance"
+    ],
+    "subthemes": [
+      "hybrid backup strategy",
+      "disaster recovery testing",
+      "data retention policies",
+      "unified backup visibility"
+    ],
+    "reasoning": "The call focuses on onboarding Vanta Health to Aegis Protect's backup and recovery solutions, addressing their specific needs in a hybrid environment. Key discussions include compliance with HIPAA regulations, the need for unified backup visibility, and the importance of testing recovery objectives. The conversation highlights the challenges faced by Vanta Health in managing their backup strategy and the solutions Aegis Protect can provide to improve their processes.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

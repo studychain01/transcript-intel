@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "roadmap planning",
+      "identity management",
+      "compliance integration"
+    ],
+    "subthemes": [
+      "JIT provisioning",
+      "SCIM improvements",
+      "adaptive MFA policies",
+      "Identity audit trail",
+      "cross-team collaboration"
+    ],
+    "reasoning": "The call focuses on planning the Q2 roadmap for the Identity product, discussing key improvements and features such as JIT provisioning, SCIM enhancements, and adaptive MFA policies. The team is also addressing compliance integration with the Comply module, indicating a strong emphasis on aligning product development with customer needs and competitive pressures. Overall, the conversation revolves around enhancing identity and access management capabilities while ensuring compliance and reliability.",
+    "evidence_quotes": [
+      "I've been looking at the support ticket volume and there's a pretty clear cluster around SSO configuration — specifically around just-in-time provisioning.",
+      "The customer specifically said they wanted IAM events surfaced in their compliance reports.",
+      "The March outage definitely put everyone a bit more on edge about stability."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "roadmap planning",
+      "identity management",
+      "compliance integration"
+    ],
+    "subthemes": [
+      "JIT provisioning",
+      "SCIM improvements",
+      "adaptive MFA policies",
+      "Identity audit trail",
+      "cross-team collaboration"
+    ],
+    "reasoning": "The call focuses on planning the Q2 roadmap for the Identity product, discussing key improvements and features such as JIT provisioning, SCIM enhancements, and adaptive MFA policies. The team is also addressing compliance integration with the Comply module, indicating a strong emphasis on aligning product development with customer needs and competitive pressures. Overall, the conversation revolves around enhancing identity and access management capabilities while ensuring compliance and reliability.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "feature request",
+      "backup and recovery",
+      "granular restore"
+    ],
+    "subthemes": [
+      "EBS snapshots",
+      "manual workaround",
+      "RTO compliance",
+      "file metadata preview",
+      "restore to alternate path"
+    ],
+    "reasoning": "The call primarily revolves around a support case where the customer, Jason, is seeking assistance regarding the lack of granular file-level restore capabilities in the Aegis Protect product. He experienced an incident where config files were overwritten and needed to restore specific files, but the current product limitations forced him to use a cumbersome manual workaround. The support representative, Sarah, confirms the limitations and documents a formal feature request based on the customer's needs and operational requirements.",
+    "evidence_quotes": [
+      "we had an incident internally, nothing catastrophic, but one of our analysts accidentally overwrote a set of config files",
+      "the restore options we're seeing are basically — restore the full snapshot, or restore at the volume level",
+      "a two-hour workaround process isn't something I can count on operationally."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "feature request",
+      "backup and recovery",
+      "granular restore"
+    ],
+    "subthemes": [
+      "EBS snapshots",
+      "manual workaround",
+      "RTO compliance",
+      "file metadata preview",
+      "restore to alternate path"
+    ],
+    "reasoning": "The call primarily revolves around a support case where the customer, Jason, is seeking assistance regarding the lack of granular file-level restore capabilities in the Aegis Protect product. He experienced an incident where config files were overwritten and needed to restore specific files, but the current product limitations forced him to use a cumbersome manual workaround. The support representative, Sarah, confirms the limitations and documents a formal feature request based on the customer's needs and operational requirements.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

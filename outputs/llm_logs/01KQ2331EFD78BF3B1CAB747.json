@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "product outage",
+      "customer escalation",
+      "sla compliance"
+    ],
+    "subthemes": [
+      "internal monitoring failure",
+      "churn risk",
+      "incident communication",
+      "SLA exposure",
+      "customer dissatisfaction"
+    ],
+    "reasoning": "The call centers around a significant outage of the Detect product, which left customers without security monitoring for several hours. The team discusses the implications of this outage, including customer dissatisfaction, SLA compliance issues, and the need for effective incident communication. They also address the failure of internal monitoring systems that should have alerted them to the issue, highlighting the urgency of resolving these problems to prevent customer churn.",
+    "evidence_quotes": [
+      "Forty-seven inbound tickets directly related to the Detect outage.",
+      "Meridian is... they're not happy. Their security team was essentially flying blind for six hours overnight.",
+      "We have a monitoring product and we didn't monitor ourselves."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "product outage",
+      "customer escalation",
+      "sla compliance"
+    ],
+    "subthemes": [
+      "internal monitoring failure",
+      "churn risk",
+      "incident communication",
+      "SLA exposure",
+      "customer dissatisfaction"
+    ],
+    "reasoning": "The call centers around a significant outage of the Detect product, which left customers without security monitoring for several hours. The team discusses the implications of this outage, including customer dissatisfaction, SLA compliance issues, and the need for effective incident communication. They also address the failure of internal monitoring systems that should have alerted them to the issue, highlighting the urgency of resolving these problems to prevent customer churn.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

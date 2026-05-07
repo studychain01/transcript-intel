@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "sprint planning",
+      "estimation issues",
+      "incident impact"
+    ],
+    "subthemes": [
+      "Detect outage impact",
+      "SSO refactor estimation",
+      "Comply v2 integration planning"
+    ],
+    "reasoning": "The call is focused on the retrospective of a sprint for the Identity team, discussing completed work, challenges faced, and planning for the next sprint. Key topics include the impact of an external incident on sprint capacity, estimation issues related to SSO refactor work, and upcoming integration with Comply v2. The team is addressing both technical challenges and project management aspects related to identity management.",
+    "evidence_quotes": [
+      "the Detect outage stuff is still causing a lot of noise",
+      "the two tickets that slipped were the MFA enforcement policy UI work and the SSO session timeout configuration",
+      "we might be starting sprint twenty-three without a full picture of that work"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "sprint planning",
+      "estimation issues",
+      "incident impact"
+    ],
+    "subthemes": [
+      "Detect outage impact",
+      "SSO refactor estimation",
+      "Comply v2 integration planning"
+    ],
+    "reasoning": "The call is focused on the retrospective of a sprint for the Identity team, discussing completed work, challenges faced, and planning for the next sprint. Key topics include the impact of an external incident on sprint capacity, estimation issues related to SSO refactor work, and upcoming integration with Comply v2. The team is addressing both technical challenges and project management aspects related to identity management.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

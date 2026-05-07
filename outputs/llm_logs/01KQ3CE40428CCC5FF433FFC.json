@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "customer communication",
+      "infrastructure reliability",
+      "product visibility"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "redundant processing nodes",
+      "heartbeat alert feature",
+      "customer concerns",
+      "post-incident report"
+    ],
+    "reasoning": "The call is focused on reviewing a recent outage incident, discussing its root cause, the fixes implemented, and how to communicate these changes to affected customers. The team is addressing infrastructure reliability issues and planning improvements to product visibility and customer communication following the incident. They are also aligning on next steps to ensure customers feel informed and supported after the outage.",
+    "evidence_quotes": [
+      "the outage itself was March 10th",
+      "we've added redundant processing nodes to the event ingestion layer",
+      "some of our enterprise accounts are going to want a call, not just an email"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "customer communication",
+      "infrastructure reliability",
+      "product visibility"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "redundant processing nodes",
+      "heartbeat alert feature",
+      "customer concerns",
+      "post-incident report"
+    ],
+    "reasoning": "The call is focused on reviewing a recent outage incident, discussing its root cause, the fixes implemented, and how to communicate these changes to affected customers. The team is addressing infrastructure reliability issues and planning improvements to product visibility and customer communication following the incident. They are also aligning on next steps to ensure customers feel informed and supported after the outage.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

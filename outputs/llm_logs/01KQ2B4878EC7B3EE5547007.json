@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "compliance automation",
+      "audit preparation",
+      "product demo"
+    ],
+    "subthemes": [
+      "SOC 2 compliance",
+      "ISO 27001 preparation",
+      "integration with Aegis Detect",
+      "evidence collection automation",
+      "demo scheduling"
+    ],
+    "reasoning": "The call primarily revolves around preparing for an upcoming audit by discussing how Aegis Comply can streamline compliance processes for Stratos. The participants focus on the challenges of manual compliance preparation and the benefits of automating evidence collection for SOC 2 and ISO 27001. The conversation also includes scheduling a demo to showcase the product's capabilities, indicating a strong interest in moving forward with the solution.",
+    "evidence_quotes": [
+      "we've got a pretty big audit coming up and honestly that's — that's the main driver for this call today.",
+      "it's pretty manual. We've got a couple engineers who basically spend weeks pulling together evidence, cross-referencing spreadsheets.",
+      "we can actually map it to a sandbox that mirrors your stack, so it feels relevant rather than just, you know, generic demo data."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "compliance automation",
+      "audit preparation",
+      "product demo"
+    ],
+    "subthemes": [
+      "SOC 2 compliance",
+      "ISO 27001 preparation",
+      "integration with Aegis Detect",
+      "evidence collection automation",
+      "demo scheduling"
+    ],
+    "reasoning": "The call primarily revolves around preparing for an upcoming audit by discussing how Aegis Comply can streamline compliance processes for Stratos. The participants focus on the challenges of manual compliance preparation and the benefits of automating evidence collection for SOC 2 and ISO 27001. The conversation also includes scheduling a demo to showcase the product's capabilities, indicating a strong interest in moving forward with the solution.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

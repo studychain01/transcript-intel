@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "SOC 2 compliance",
+      "audit preparation",
+      "multi-framework compliance"
+    ],
+    "subthemes": [
+      "evidence collection",
+      "onboarding process",
+      "control mapping",
+      "compliance reporting"
+    ],
+    "reasoning": "The call primarily revolves around preparing for a SOC 2 audit, discussing the challenges of evidence collection, and how Aegis Comply can streamline this process. Nathan from Maplewood Goods expresses concerns about the manual effort required for compliance and shows interest in the automated solutions offered by Aegis. The conversation also touches on the integration process and the benefits of using a single platform for multiple compliance frameworks.",
+    "evidence_quotes": [
+      "We've got an auditor engagement scoped for, uh, Q2 — so probably May or June — and we're kind of scrambling to get our evidence collection and reporting story together.",
+      "It's pretty manual right now. We've got a shared drive with a bunch of folders, we're pulling logs from like four different places... it basically consumed two of my engineers for almost three weeks.",
+      "The upfront time investment is real but it's much more contained than what you described for your last audit cycle."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "SOC 2 compliance",
+      "audit preparation",
+      "multi-framework compliance"
+    ],
+    "subthemes": [
+      "evidence collection",
+      "onboarding process",
+      "control mapping",
+      "compliance reporting"
+    ],
+    "reasoning": "The call primarily revolves around preparing for a SOC 2 audit, discussing the challenges of evidence collection, and how Aegis Comply can streamline this process. Nathan from Maplewood Goods expresses concerns about the manual effort required for compliance and shows interest in the automated solutions offered by Aegis. The conversation also touches on the integration process and the benefits of using a single platform for multiple compliance frameworks.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

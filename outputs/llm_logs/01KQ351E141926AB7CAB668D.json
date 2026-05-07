@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage",
+      "compliance",
+      "churn risk"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "HIPAA compliance",
+      "SLA review",
+      "remediation plan",
+      "competitive evaluation"
+    ],
+    "reasoning": "The call centers around a significant outage of the Aegis Detect platform, which left the customer's security team without threat monitoring capabilities for six hours. This incident raises serious concerns regarding compliance with HIPAA regulations and the reliability of the service, prompting the customer to consider alternative solutions. The discussion involves the root cause of the outage, remediation steps, and the need for a solid service level agreement to prevent future occurrences.",
+    "evidence_quotes": [
+      "We've had zero visibility into our threat monitoring since yesterday morning",
+      "I had no way to tell you whether something was happening on our network or not",
+      "My CISO is now asking me to put together a competitive evaluation."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage",
+      "compliance",
+      "churn risk"
+    ],
+    "subthemes": [
+      "event processing failure",
+      "HIPAA compliance",
+      "SLA review",
+      "remediation plan",
+      "competitive evaluation"
+    ],
+    "reasoning": "The call centers around a significant outage of the Aegis Detect platform, which left the customer's security team without threat monitoring capabilities for six hours. This incident raises serious concerns regarding compliance with HIPAA regulations and the reliability of the service, prompting the customer to consider alternative solutions. The discussion involves the root cause of the outage, remediation steps, and the need for a solid service level agreement to prevent future occurrences.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

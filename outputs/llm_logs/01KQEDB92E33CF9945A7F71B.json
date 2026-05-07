@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "platform reliability",
+      "outage management"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "service credit request",
+      "root cause analysis",
+      "customer frustration"
+    ],
+    "reasoning": "The call primarily revolves around a critical incident where Cobalt Software's Aegis Detect dashboard is down, leading to a complete lack of threat visibility. The customer, Lauren, expresses frustration over the lack of proactive communication from Aegis regarding the outage and emphasizes the urgency of resolving the issue due to their operational needs. The support representative, David, acknowledges the severity of the situation and commits to escalating the incident while providing updates.",
+    "evidence_quotes": [
+      "our Aegis Detect dashboard is completely down and we have zero visibility into our threat monitoring.",
+      "this appears to be a very recent onset.",
+      "I want a service credit conversation, because this is — we're paying a significant amount for this platform and right now it is not functioning."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "platform reliability",
+      "outage management"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "service credit request",
+      "root cause analysis",
+      "customer frustration"
+    ],
+    "reasoning": "The call primarily revolves around a critical incident where Cobalt Software's Aegis Detect dashboard is down, leading to a complete lack of threat visibility. The customer, Lauren, expresses frustration over the lack of proactive communication from Aegis regarding the outage and emphasizes the urgency of resolving the issue due to their operational needs. The support representative, David, acknowledges the severity of the situation and commits to escalating the incident while providing updates.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

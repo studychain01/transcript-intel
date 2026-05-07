@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "feature requests",
+      "compliance reporting",
+      "product roadmap"
+    ],
+    "subthemes": [
+      "granular alerting thresholds",
+      "in-product pipeline health visibility",
+      "SOC 2 on-demand reporting"
+    ],
+    "reasoning": "The call primarily revolves around discussing feature requests and product roadmap items for the Detect product, with a focus on improving customer experience and compliance reporting. Sandra, the customer, raises specific gaps in the product related to alerting and visibility, which Rachel, the CSM, acknowledges and commits to addressing. Additionally, they discuss the recent launch of Comply v2, which includes features relevant to Sandra's compliance needs.",
+    "evidence_quotes": [
+      "the primary thing — and I've been saying this for a couple of quarters now — is that we really need more granular alerting thresholds by entity type.",
+      "the outage in March... that's six hours where we had no visibility into threats across our environment, and given our regulatory obligations that's not a small thing.",
+      "one of the headline features is on-demand SOC 2 reporting, so you can generate the report without the manual export process."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "feature requests",
+      "compliance reporting",
+      "product roadmap"
+    ],
+    "subthemes": [
+      "granular alerting thresholds",
+      "in-product pipeline health visibility",
+      "SOC 2 on-demand reporting"
+    ],
+    "reasoning": "The call primarily revolves around discussing feature requests and product roadmap items for the Detect product, with a focus on improving customer experience and compliance reporting. Sandra, the customer, raises specific gaps in the product related to alerting and visibility, which Rachel, the CSM, acknowledges and commits to addressing. Additionally, they discuss the recent launch of Comply v2, which includes features relevant to Sandra's compliance needs.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

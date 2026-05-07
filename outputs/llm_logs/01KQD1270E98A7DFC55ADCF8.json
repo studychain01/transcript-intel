@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "performance degradation",
+      "architecture scalability",
+      "technical debt",
+      "incident risk",
+      "sales alignment"
+    ],
+    "subthemes": [
+      "scheduler concurrency issues",
+      "snapshot deduplication bottleneck",
+      "interim throttling measures",
+      "customer onboarding pace",
+      "growth quarter concerns"
+    ],
+    "reasoning": "The call primarily addresses significant performance issues within the Protect module, particularly related to scalability and architecture. The team discusses alarming load testing results that reveal severe delays in backup job processing, indicating underlying technical debt and the need for architectural changes. They also consider interim measures to manage customer onboarding and prevent potential outages during a critical growth period.",
+    "evidence_quotes": [
+      "we've been getting some pretty alarming signals from the Protect module",
+      "the job scheduler isn't built to handle concurrent dispatch at this scale",
+      "if we scale the customer base and the infrastructure can't handle it, we're going to have outages. Real ones. Customer-impacting ones."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "performance degradation",
+      "architecture scalability",
+      "technical debt",
+      "incident risk",
+      "sales alignment"
+    ],
+    "subthemes": [
+      "scheduler concurrency issues",
+      "snapshot deduplication bottleneck",
+      "interim throttling measures",
+      "customer onboarding pace",
+      "growth quarter concerns"
+    ],
+    "reasoning": "The call primarily addresses significant performance issues within the Protect module, particularly related to scalability and architecture. The team discusses alarming load testing results that reveal severe delays in backup job processing, indicating underlying technical debt and the need for architectural changes. They also consider interim measures to manage customer onboarding and prevent potential outages during a critical growth period.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

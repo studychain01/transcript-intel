@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage analysis",
+      "product launch",
+      "roadmap planning"
+    ],
+    "subthemes": [
+      "Detect outage post-mortem",
+      "Comply v2 launch status",
+      "reliability improvements",
+      "bug fixes",
+      "Q2 roadmap prioritization"
+    ],
+    "reasoning": "The call primarily focuses on discussing the aftermath of a significant outage in the Detect system, including the root causes and the measures taken to prevent future occurrences. Additionally, it covers the launch of Comply v2 and the associated early adoption metrics, as well as planning for the upcoming quarter's roadmap with an emphasis on reliability over new features. The conversation highlights the importance of incident response and reliability engineering in the context of product development and customer impact.",
+    "evidence_quotes": [
+      "the outage ran roughly six hours",
+      "the root cause was we had a single point of failure",
+      "Comply v2 went GA on April 7th"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "outage analysis",
+      "product launch",
+      "roadmap planning"
+    ],
+    "subthemes": [
+      "Detect outage post-mortem",
+      "Comply v2 launch status",
+      "reliability improvements",
+      "bug fixes",
+      "Q2 roadmap prioritization"
+    ],
+    "reasoning": "The call primarily focuses on discussing the aftermath of a significant outage in the Detect system, including the root causes and the measures taken to prevent future occurrences. Additionally, it covers the launch of Comply v2 and the associated early adoption metrics, as well as planning for the upcoming quarter's roadmap with an emphasis on reliability over new features. The conversation highlights the importance of incident response and reliability engineering in the context of product development and customer impact.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

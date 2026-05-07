@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "reliability engineering",
+      "sprint retrospective",
+      "monitoring improvements"
+    ],
+    "subthemes": [
+      "circuit breaker implementation",
+      "redundant processing nodes",
+      "monitoring gaps",
+      "pipeline health dashboard",
+      "knowledge sharing"
+    ],
+    "reasoning": "The call is focused on reviewing the outcomes of a reliability sprint initiated after a significant outage. The team discusses their achievements in improving system reliability, such as implementing a circuit breaker and enhancing monitoring capabilities. They also plan to share their learnings with the broader engineering organization to prevent future incidents.",
+    "evidence_quotes": [
+      "I think you both crushed it.",
+      "We were targeting under thirty seconds and we're consistently hitting like twelve, fourteen seconds in testing.",
+      "I know you had some thoughts there."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "reliability engineering",
+      "sprint retrospective",
+      "monitoring improvements"
+    ],
+    "subthemes": [
+      "circuit breaker implementation",
+      "redundant processing nodes",
+      "monitoring gaps",
+      "pipeline health dashboard",
+      "knowledge sharing"
+    ],
+    "reasoning": "The call is focused on reviewing the outcomes of a reliability sprint initiated after a significant outage. The team discusses their achievements in improving system reliability, such as implementing a circuit breaker and enhancing monitoring capabilities. They also plan to share their learnings with the broader engineering organization to prevent future incidents.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

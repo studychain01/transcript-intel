@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal planning",
+      "competitive analysis",
+      "cloud expansion"
+    ],
+    "subthemes": [
+      "March Detect outage",
+      "renewal pricing options",
+      "compliance walkthrough",
+      "competitive quote from SentinelShield",
+      "cloud workload expansion"
+    ],
+    "reasoning": "The call primarily revolves around the upcoming renewal of services, addressing concerns raised by a recent outage, and discussing the expansion of cloud workloads. Lisa and Lauren are strategizing on how to approach the renewal process, including pricing adjustments based on the increased workload and the need for competitive quotes. Additionally, they are planning a compliance walkthrough to ensure readiness for upcoming audits.",
+    "evidence_quotes": [
+      "the outage in March. The Detect outage. That was... that was not a great experience for us.",
+      "we're planning to add about forty more cloud workloads through Q3 as we finish migrating the last of our on-prem stuff.",
+      "I have procurement pushing me to get at least one competitive quote, so... I want to be transparent about that."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal planning",
+      "competitive analysis",
+      "cloud expansion"
+    ],
+    "subthemes": [
+      "March Detect outage",
+      "renewal pricing options",
+      "compliance walkthrough",
+      "competitive quote from SentinelShield",
+      "cloud workload expansion"
+    ],
+    "reasoning": "The call primarily revolves around the upcoming renewal of services, addressing concerns raised by a recent outage, and discussing the expansion of cloud workloads. Lisa and Lauren are strategizing on how to approach the renewal process, including pricing adjustments based on the increased workload and the need for competitive quotes. Additionally, they are planning a compliance walkthrough to ensure readiness for upcoming audits.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

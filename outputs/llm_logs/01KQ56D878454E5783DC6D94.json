@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "technical issue",
+      "logvault integration",
+      "circuit breaker",
+      "data backfill",
+      "churn risk"
+    ],
+    "subthemes": [
+      "timeout errors",
+      "event processing",
+      "payload threshold",
+      "streaming mode",
+      "incident follow-up"
+    ],
+    "reasoning": "The call primarily revolves around a technical issue where Stratos Cloud is experiencing consistent timeout errors with their LogVault integration due to a circuit breaker threshold being exceeded. The Aegis support team is working to diagnose the problem and provide a solution, which includes switching to a streaming mode to prevent future disruptions. Additionally, the customer expresses frustration over repeated incidents, indicating a risk of churn if the issues are not resolved satisfactorily.",
+    "evidence_quotes": [
+      "We've been running Aegis Detect integrated with our LogVault environment, right, and starting around — I want to say April 18th, maybe 19th — we started seeing consistent timeout errors.",
+      "So you're telling me the fix for one problem might have caused a new problem? That's — I mean, come on. That's not great to hear.",
+      "I appreciate you both getting on the call and actually diagnosing this today. I'm still frustrated with the situation, I won't pretend I'm not. But at least we have a path forward."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "technical issue",
+      "logvault integration",
+      "circuit breaker",
+      "data backfill",
+      "churn risk"
+    ],
+    "subthemes": [
+      "timeout errors",
+      "event processing",
+      "payload threshold",
+      "streaming mode",
+      "incident follow-up"
+    ],
+    "reasoning": "The call primarily revolves around a technical issue where Stratos Cloud is experiencing consistent timeout errors with their LogVault integration due to a circuit breaker threshold being exceeded. The Aegis support team is working to diagnose the problem and provide a solution, which includes switching to a streaming mode to prevent future disruptions. Additionally, the customer expresses frustration over repeated incidents, indicating a risk of churn if the issues are not resolved satisfactorily.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

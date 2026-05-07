@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "service outage",
+      "customer impact",
+      "compliance risk"
+    ],
+    "subthemes": [
+      "event ingestion failure",
+      "redundant processing nodes",
+      "customer communication issues",
+      "HIPAA compliance concerns",
+      "incident documentation"
+    ],
+    "reasoning": "The call is primarily focused on reviewing a recent service outage related to the Detect module, discussing the technical failures that led to the incident, and the subsequent fixes implemented to prevent future occurrences. Additionally, the team addresses the impact on key customers, particularly regarding compliance and renewal risks, and outlines follow-up actions to improve customer communication and support. The discussion highlights the importance of reliability in service delivery and the need for effective incident management.",
+    "evidence_quotes": [
+      "this is officially the 30-day post-incident review for the Detect outage",
+      "the fact that they couldn't show continuous monitoring coverage for those six hours was a problem for them",
+      "we provided them with a formal incident report and a letter from our CTO explaining the nature of the outage and the remediation steps."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "service outage",
+      "customer impact",
+      "compliance risk"
+    ],
+    "subthemes": [
+      "event ingestion failure",
+      "redundant processing nodes",
+      "customer communication issues",
+      "HIPAA compliance concerns",
+      "incident documentation"
+    ],
+    "reasoning": "The call is primarily focused on reviewing a recent service outage related to the Detect module, discussing the technical failures that led to the incident, and the subsequent fixes implemented to prevent future occurrences. Additionally, the team addresses the impact on key customers, particularly regarding compliance and renewal risks, and outlines follow-up actions to improve customer communication and support. The discussion highlights the importance of reliability in service delivery and the need for effective incident management.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

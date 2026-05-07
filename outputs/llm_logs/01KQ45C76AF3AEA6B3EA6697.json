@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "contract negotiation",
+      "service level agreement",
+      "CMMC compliance"
+    ],
+    "subthemes": [
+      "contract renewal",
+      "service outage",
+      "enhanced SLA",
+      "CMMC roadmap",
+      "competitive evaluation"
+    ],
+    "reasoning": "The call primarily revolves around the renewal of a cybersecurity platform contract, where the customer expresses concerns about a recent service outage and its implications for their operations. The discussion includes negotiating terms such as an enhanced service level agreement (SLA) and addressing compliance needs for an upcoming audit. Additionally, the customer is exploring competitive options, indicating the importance of the renewal terms to maintain their business relationship.",
+    "evidence_quotes": [
+      "Six hours where we had basically zero visibility into threat monitoring.",
+      "We're also — and this is something I can put in writing as part of the renewal package — we're offering an enhanced SLA on Detect uptime going forward.",
+      "I appreciate the honesty. When you say it's on the roadmap — are we talking six months, twelve months? Because my audit is Q4."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "contract negotiation",
+      "service level agreement",
+      "CMMC compliance"
+    ],
+    "subthemes": [
+      "contract renewal",
+      "service outage",
+      "enhanced SLA",
+      "CMMC roadmap",
+      "competitive evaluation"
+    ],
+    "reasoning": "The call primarily revolves around the renewal of a cybersecurity platform contract, where the customer expresses concerns about a recent service outage and its implications for their operations. The discussion includes negotiating terms such as an enhanced service level agreement (SLA) and addressing compliance needs for an upcoming audit. Additionally, the customer is exploring competitive options, indicating the importance of the renewal terms to maintain their business relationship.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

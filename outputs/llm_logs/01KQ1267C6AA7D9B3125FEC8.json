@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "SOC 2 audit preparation",
+      "audit readiness",
+      "security training compliance"
+    ],
+    "subthemes": [
+      "access control",
+      "change management",
+      "incident tracking",
+      "vendor management",
+      "employee security training"
+    ],
+    "reasoning": "The call is focused on preparing for an upcoming SOC 2 Type II audit, discussing various compliance areas such as access control, change management, incident tracking, and vendor management. The team identifies gaps in their current processes and assigns action items to ensure they meet the audit requirements. The emphasis on security training and documentation further highlights the compliance aspect of the discussion.",
+    "evidence_quotes": [
+      "the auditors are going to want evidence going back several months",
+      "we need to tighten that up going forward during the observation period",
+      "if auditors see a bunch of unacknowledged alerts in the system that's going to raise questions about whether we're actually reviewing them."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "SOC 2 audit preparation",
+      "audit readiness",
+      "security training compliance"
+    ],
+    "subthemes": [
+      "access control",
+      "change management",
+      "incident tracking",
+      "vendor management",
+      "employee security training"
+    ],
+    "reasoning": "The call is focused on preparing for an upcoming SOC 2 Type II audit, discussing various compliance areas such as access control, change management, incident tracking, and vendor management. The team identifies gaps in their current processes and assigns action items to ensure they meet the audit requirements. The emphasis on security training and documentation further highlights the compliance aspect of the discussion.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

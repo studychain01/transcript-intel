@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "data protection",
+      "backup solutions",
+      "onboarding process"
+    ],
+    "subthemes": [
+      "hybrid backup environment",
+      "RPO/RTO requirements",
+      "implementation phases",
+      "customer data compliance"
+    ],
+    "reasoning": "The call primarily revolves around discussing the deployment of Aegis Protect for Coastal Living's backup and recovery needs. Kevin outlines a phased implementation plan to address Vanessa's concerns about their current fragmented backup setup and the critical nature of their customer data platform. The conversation also touches on compliance and the importance of minimizing downtime during peak retail periods, indicating a focus on both technical and business aspects of the solution.",
+    "evidence_quotes": [
+      "we've got our e-commerce platform on CloudPrime",
+      "we can't be down for hours",
+      "the PCI DSS reporting out of Comply v2 might be worth a separate conversation"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "data protection",
+      "backup solutions",
+      "onboarding process"
+    ],
+    "subthemes": [
+      "hybrid backup environment",
+      "RPO/RTO requirements",
+      "implementation phases",
+      "customer data compliance"
+    ],
+    "reasoning": "The call primarily revolves around discussing the deployment of Aegis Protect for Coastal Living's backup and recovery needs. Kevin outlines a phased implementation plan to address Vanessa's concerns about their current fragmented backup setup and the critical nature of their customer data platform. The conversation also touches on compliance and the importance of minimizing downtime during peak retail periods, indicating a focus on both technical and business aspects of the solution.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "identity roadmap",
+      "mfa policy engine",
+      "sso connectors",
+      "qa process"
+    ],
+    "subthemes": [
+      "MFA expansion",
+      "SSO connector prioritization",
+      "QA process improvements",
+      "infrastructure bottlenecks"
+    ],
+    "reasoning": "The call centers around planning and aligning on the product roadmap for the Aegis Identity platform, specifically focusing on the development of a multi-factor authentication (MFA) policy engine and an expanded single sign-on (SSO) connector library. The team discusses timelines, dependencies, and necessary improvements in the QA process to ensure timely delivery. There are also mentions of infrastructure challenges that could impact the testing phases, indicating a need for better resource allocation.",
+    "evidence_quotes": [
+      "the main thing we wanted to get through today is the Identity roadmap for Q2",
+      "the focus areas are — one, the MFA policy engine, and two, the SSO connector library",
+      "the spec on the last feature wasn't clean enough when it went to QA."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "identity roadmap",
+      "mfa policy engine",
+      "sso connectors",
+      "qa process"
+    ],
+    "subthemes": [
+      "MFA expansion",
+      "SSO connector prioritization",
+      "QA process improvements",
+      "infrastructure bottlenecks"
+    ],
+    "reasoning": "The call centers around planning and aligning on the product roadmap for the Aegis Identity platform, specifically focusing on the development of a multi-factor authentication (MFA) policy engine and an expanded single sign-on (SSO) connector library. The team discusses timelines, dependencies, and necessary improvements in the QA process to ensure timely delivery. There are also mentions of infrastructure challenges that could impact the testing phases, indicating a need for better resource allocation.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

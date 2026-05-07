@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "feature request",
+      "custom compliance templates",
+      "early access program"
+    ],
+    "subthemes": [
+      "custom control annotations",
+      "API integration",
+      "workaround solutions"
+    ],
+    "reasoning": "The call primarily revolves around a support case where Warren Beck from Blackridge Investments is requesting a custom compliance template feature for Aegis Comply v2. Priya Patel from Aegis support discusses the feasibility of this request, confirms it is on the product roadmap, and provides workarounds while enrolling Warren in an early access program. The conversation is focused on addressing Warren's specific needs and ensuring he has the necessary tools until the feature is available.",
+    "evidence_quotes": [
+      "we're pretty excited about where this could go.",
+      "I want to be transparent with you — it's not in the current GA release of v2.",
+      "this is something we've been hearing from a few of our enterprise customers, particularly on the financial services side."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "feature request",
+      "custom compliance templates",
+      "early access program"
+    ],
+    "subthemes": [
+      "custom control annotations",
+      "API integration",
+      "workaround solutions"
+    ],
+    "reasoning": "The call primarily revolves around a support case where Warren Beck from Blackridge Investments is requesting a custom compliance template feature for Aegis Comply v2. Priya Patel from Aegis support discusses the feasibility of this request, confirms it is on the product roadmap, and provides workarounds while enrolling Warren in an early access program. The conversation is focused on addressing Warren's specific needs and ensuring he has the necessary tools until the feature is available.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

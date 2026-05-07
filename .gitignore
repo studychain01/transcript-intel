@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Large / local outputs (uncomment if you prefer not to commit artifacts)
+# outputs/meetings.parquet
+# outputs/meetings.csv
+# outputs/llm_logs/
+
+# Session handoff file (local context, not source)
+handoff.md

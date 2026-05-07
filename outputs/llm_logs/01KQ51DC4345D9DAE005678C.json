@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "product feedback",
+      "compliance tooling",
+      "feature gaps"
+    ],
+    "subthemes": [
+      "HIPAA reporting issues",
+      "scheduled report delivery",
+      "executive summary request",
+      "period-over-period tracking",
+      "control family filtering"
+    ],
+    "reasoning": "The call primarily revolves around gathering feedback on the Aegis Comply product from a customer in the healthcare sector. The customer outlines specific feature gaps and pain points related to compliance reporting, indicating a need for improvements to retain their business. The discussion also touches on the customer's satisfaction with other modules, suggesting a focus on ensuring continued success and renewal of their contract with Aegis.",
+    "evidence_quotes": [
+      "the current reporting in Comply is... it's okay, but it's pretty static.",
+      "there's no way to filter or generate a focused view on a specific control family.",
+      "we're tracking that manually in a spreadsheet which is... not ideal."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "product feedback",
+      "compliance tooling",
+      "feature gaps"
+    ],
+    "subthemes": [
+      "HIPAA reporting issues",
+      "scheduled report delivery",
+      "executive summary request",
+      "period-over-period tracking",
+      "control family filtering"
+    ],
+    "reasoning": "The call primarily revolves around gathering feedback on the Aegis Comply product from a customer in the healthcare sector. The customer outlines specific feature gaps and pain points related to compliance reporting, indicating a need for improvements to retain their business. The discussion also touches on the customer's satisfaction with other modules, suggesting a focus on ensuring continued success and renewal of their contract with Aegis.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "LDAP sync failure",
+      "support response time",
+      "product feedback"
+    ],
+    "subthemes": [
+      "SSL handshake failure",
+      "internal CA certificate issue",
+      "response time concerns",
+      "user provisioning impact"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding LDAP sync failures that significantly impacted Steelpoint Manufacturing's operations. Harold Jensen expresses frustration over the slow response time from Aegis support and the critical nature of the issue, which affected over 200 employees. The conversation also touches on product feedback regarding error messaging and the need for better communication in support cases.",
+    "evidence_quotes": [
+      "I've got a case open — it's case number 6539 — and honestly I'm pretty frustrated at this point because this has been going on for a few days now.",
+      "I submitted the case that same morning and it took almost 24 hours to get a response, which is not acceptable for something this critical.",
+      "I need someone from Aegis leadership to understand the impact this has had on Steelpoint. We're a 24-7 manufacturing operation — downtime isn't abstract for us, it's real dollars and real people standing around."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "LDAP sync failure",
+      "support response time",
+      "product feedback"
+    ],
+    "subthemes": [
+      "SSL handshake failure",
+      "internal CA certificate issue",
+      "response time concerns",
+      "user provisioning impact"
+    ],
+    "reasoning": "The call primarily revolves around a technical support issue regarding LDAP sync failures that significantly impacted Steelpoint Manufacturing's operations. Harold Jensen expresses frustration over the slow response time from Aegis support and the critical nature of the issue, which affected over 200 employees. The conversation also touches on product feedback regarding error messaging and the need for better communication in support cases.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

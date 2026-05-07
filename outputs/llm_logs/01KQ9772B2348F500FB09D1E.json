@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "MFA issues",
+      "Okta integration",
+      "user lockout"
+    ],
+    "subthemes": [
+      "TOTP validation failures",
+      "4031 error code",
+      "P1 escalation",
+      "temporary email OTP workaround"
+    ],
+    "reasoning": "The call revolves around a critical issue with MFA token failures affecting a significant number of users at Coastal Living Co. The support agent is addressing a P1 escalation regarding TOTP validation failures linked to an Okta SSO integration, which has resulted in user lockouts. The conversation highlights the urgency of resolving the issue due to its impact on production access for engineering and operations teams.",
+    "evidence_quotes": [
+      "we're talking probably 40, maybe 45 users who can't get in right now",
+      "it's a critical situation and I'm treating it as such",
+      "I will personally stay on this case and keep you updated."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "MFA issues",
+      "Okta integration",
+      "user lockout"
+    ],
+    "subthemes": [
+      "TOTP validation failures",
+      "4031 error code",
+      "P1 escalation",
+      "temporary email OTP workaround"
+    ],
+    "reasoning": "The call revolves around a critical issue with MFA token failures affecting a significant number of users at Coastal Living Co. The support agent is addressing a P1 escalation regarding TOTP validation failures linked to an Okta SSO integration, which has resulted in user lockouts. The conversation highlights the urgency of resolving the issue due to its impact on production access for engineering and operations teams.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

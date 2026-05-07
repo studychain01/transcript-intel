@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "service outage",
+      "customer communication",
+      "architecture gap",
+      "sla compliance"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "customer status updates",
+      "remediation plan",
+      "contractual SLA commitments"
+    ],
+    "reasoning": "The call centers around a critical outage affecting the Detect threat monitoring pipeline, which has left all customers without alert visibility. The team discusses the root cause of the failure, the impact on customers, and the immediate steps needed for remediation and communication. There is a strong focus on addressing customer concerns and ensuring compliance with service level agreements during the incident.",
+    "evidence_quotes": [
+      "We're seeing a cascading failure that started in the ingestion layer and basically knocked out the entire threat monitoring feed for Detect.",
+      "We have enterprise customers who have contractual SLA commitments around monitoring uptime.",
+      "We identified an architectural gap in our event ingestion redundancy and we are remediating it."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "service outage",
+      "customer communication",
+      "architecture gap",
+      "sla compliance"
+    ],
+    "subthemes": [
+      "cascading failure",
+      "event processing pipeline",
+      "customer status updates",
+      "remediation plan",
+      "contractual SLA commitments"
+    ],
+    "reasoning": "The call centers around a critical outage affecting the Detect threat monitoring pipeline, which has left all customers without alert visibility. The team discusses the root cause of the failure, the impact on customers, and the immediate steps needed for remediation and communication. There is a strong focus on addressing customer concerns and ensuring compliance with service level agreements during the incident.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

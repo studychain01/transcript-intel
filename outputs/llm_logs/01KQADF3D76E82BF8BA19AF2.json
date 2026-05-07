@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "customer churn",
+      "upsell opportunity",
+      "product launch"
+    ],
+    "subthemes": [
+      "customer loss to competitor",
+      "renewal rates",
+      "upsell conversations",
+      "Comply v2 launch",
+      "QA coverage issues"
+    ],
+    "reasoning": "The call primarily focuses on customer success metrics, including renewal rates and customer churn, as well as upsell opportunities. The discussion highlights a recent loss of a customer to a competitor and the potential for new revenue through upselling existing clients. Additionally, there are updates on product development and QA coverage, which are relevant to customer success as they impact product readiness and customer satisfaction.",
+    "evidence_quotes": [
+      "we did lose one account — Harrington Financial, they went with a competitor.",
+      "The good news is we've already got two upsell conversations going — one with Brentwood Logistics...",
+      "Renewals for the month came in at ninety-one percent, which is in line with our Q1 target."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "customer churn",
+      "upsell opportunity",
+      "product launch"
+    ],
+    "subthemes": [
+      "customer loss to competitor",
+      "renewal rates",
+      "upsell conversations",
+      "Comply v2 launch",
+      "QA coverage issues"
+    ],
+    "reasoning": "The call primarily focuses on customer success metrics, including renewal rates and customer churn, as well as upsell opportunities. The discussion highlights a recent loss of a customer to a competitor and the potential for new revenue through upselling existing clients. Additionally, there are updates on product development and QA coverage, which are relevant to customer success as they impact product readiness and customer satisfaction.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

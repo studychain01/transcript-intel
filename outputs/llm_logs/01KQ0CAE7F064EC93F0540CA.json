@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "pipeline reliability",
+      "resource allocation",
+      "timeline risk"
+    ],
+    "subthemes": [
+      "event ingestion refactor",
+      "Comply v2 launch",
+      "Kafka configuration",
+      "alert deduplication",
+      "integration testing"
+    ],
+    "reasoning": "The call primarily focuses on the engineering team's progress and challenges related to the Detect pipeline reliability work and the upcoming Comply v2 launch. The discussion includes specific tasks, timelines, and uncertainties surrounding the integration testing and Kafka configuration, indicating a strong emphasis on engineering operations. The team is actively managing resources and timelines to ensure both projects are on track despite technical uncertainties.",
+    "evidence_quotes": [
+      "We're about sixty percent through the work",
+      "End of March for the core pipeline changes is doable, but that's assuming we don't hit anything weird in integration testing.",
+      "I'll tell them end of March is still the target but flag that there's some technical uncertainty we're actively working down."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "pipeline reliability",
+      "resource allocation",
+      "timeline risk"
+    ],
+    "subthemes": [
+      "event ingestion refactor",
+      "Comply v2 launch",
+      "Kafka configuration",
+      "alert deduplication",
+      "integration testing"
+    ],
+    "reasoning": "The call primarily focuses on the engineering team's progress and challenges related to the Detect pipeline reliability work and the upcoming Comply v2 launch. The discussion includes specific tasks, timelines, and uncertainties surrounding the integration testing and Kafka configuration, indicating a strong emphasis on engineering operations. The team is actively managing resources and timelines to ensure both projects are on track despite technical uncertainties.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

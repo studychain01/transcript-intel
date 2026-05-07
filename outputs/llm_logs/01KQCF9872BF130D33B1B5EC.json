@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "launch readiness",
+      "qa sign-off",
+      "compliance reporting"
+    ],
+    "subthemes": [
+      "Safari bug fix",
+      "HIPAA validation",
+      "in-app guidance",
+      "incident communications"
+    ],
+    "reasoning": "The call focuses on the final preparations for the launch of Comply v2, including a review of the QA checklist, resolution of bugs, and validation of compliance features. The team discusses specific issues such as a cosmetic bug in Safari and the validation of the HIPAA reporting module, indicating a strong emphasis on product readiness and compliance. Overall, the conversation reflects a collaborative effort to ensure a successful product launch.",
+    "evidence_quotes": [
+      "I'm genuinely excited, I feel like we've been building toward this for so long.",
+      "The third one — the edge case with PCI DSS report download on Safari — that one's still open but engineering flagged it as low severity, cosmetic only.",
+      "We were not going to ship a HIPAA module that had any ambiguity in the output."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "launch readiness",
+      "qa sign-off",
+      "compliance reporting"
+    ],
+    "subthemes": [
+      "Safari bug fix",
+      "HIPAA validation",
+      "in-app guidance",
+      "incident communications"
+    ],
+    "reasoning": "The call focuses on the final preparations for the launch of Comply v2, including a review of the QA checklist, resolution of bugs, and validation of compliance features. The team discusses specific issues such as a cosmetic bug in Safari and the validation of the HIPAA reporting module, indicating a strong emphasis on product readiness and compliance. Overall, the conversation reflects a collaborative effort to ensure a successful product launch.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

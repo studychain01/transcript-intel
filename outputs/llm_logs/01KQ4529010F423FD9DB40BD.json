@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "win-loss analysis",
+      "competitive intelligence",
+      "sales process",
+      "collateral gaps"
+    ],
+    "subthemes": [
+      "reliability concerns",
+      "competitive pricing",
+      "loss note quality",
+      "customer engagement",
+      "action items for improvement"
+    ],
+    "reasoning": "The call centers around a Q1 win-loss analysis, discussing specific losses attributed to competitors and the impact of a reliability incident on sales. The team identifies gaps in competitive collateral and execution issues that contributed to lost deals, emphasizing the need for better documentation and proactive customer engagement. Action items are proposed to address these issues and improve future sales outcomes.",
+    "evidence_quotes": [
+      "'The March outage is still haunting us.'",
+      "'We can't afford six hours of no threat visibility in our environment.'",
+      "'We need competitive testing data or at least a way to challenge those claims in the room.'"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "win-loss analysis",
+      "competitive intelligence",
+      "sales process",
+      "collateral gaps"
+    ],
+    "subthemes": [
+      "reliability concerns",
+      "competitive pricing",
+      "loss note quality",
+      "customer engagement",
+      "action items for improvement"
+    ],
+    "reasoning": "The call centers around a Q1 win-loss analysis, discussing specific losses attributed to competitors and the impact of a reliability incident on sales. The team identifies gaps in competitive collateral and execution issues that contributed to lost deals, emphasizing the need for better documentation and proactive customer engagement. Action items are proposed to address these issues and improve future sales outcomes.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "compliance",
+      "audit readiness",
+      "product demo"
+    ],
+    "subthemes": [
+      "PCI DSS",
+      "on-demand reporting",
+      "gap analysis",
+      "remediation guidance",
+      "integration with Aegis Detect"
+    ],
+    "reasoning": "The call primarily revolves around a demo of the Aegis Comply v2 product, which is designed to assist Silverline Brands with their upcoming PCI DSS renewal audit. The discussion highlights key features such as on-demand compliance reporting and gap analysis, which are crucial for meeting compliance requirements efficiently. Dominic expresses enthusiasm about the product's capabilities, particularly in addressing pain points related to compliance reporting and audit preparation.",
+    "evidence_quotes": [
+      "the timing of this call is actually pretty good for us because we've got our PCI DSS renewal audit coming up",
+      "this changes the dynamic completely",
+      "having something like this that just spells it out is gonna save us a lot of back and forth."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "compliance",
+      "audit readiness",
+      "product demo"
+    ],
+    "subthemes": [
+      "PCI DSS",
+      "on-demand reporting",
+      "gap analysis",
+      "remediation guidance",
+      "integration with Aegis Detect"
+    ],
+    "reasoning": "The call primarily revolves around a demo of the Aegis Comply v2 product, which is designed to assist Silverline Brands with their upcoming PCI DSS renewal audit. The discussion highlights key features such as on-demand compliance reporting and gap analysis, which are crucial for meeting compliance requirements efficiently. Dominic expresses enthusiasm about the product's capabilities, particularly in addressing pain points related to compliance reporting and audit preparation.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

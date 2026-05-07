@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "post-mortem follow-up",
+      "bug fix",
+      "load testing"
+    ],
+    "subthemes": [
+      "Comply v2 report generation bug",
+      "circuit breaker health check",
+      "load testing suite planning",
+      "Detect outage follow-up actions"
+    ],
+    "reasoning": "The call primarily focuses on addressing issues related to a recent outage and the rollout of a new product version. The team discusses critical bugs affecting enterprise customers, plans for load testing to prevent future incidents, and follows up on action items from a post-mortem review. This indicates a strong emphasis on incident response and reliability improvements.",
+    "evidence_quotes": [
+      "we want to spend the bulk of the time on the post-mortem follow-ups from the Detect outage",
+      "we had three customers hit errors with the on-demand SOC 2 report generation",
+      "we committed to it in the post-mortem document and I don't want it to become one of those things that just... never happens."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Incident Response & Reliability (SRE / Platform)",
+    "secondary_categories": [
+      "post-mortem follow-up",
+      "bug fix",
+      "load testing"
+    ],
+    "subthemes": [
+      "Comply v2 report generation bug",
+      "circuit breaker health check",
+      "load testing suite planning",
+      "Detect outage follow-up actions"
+    ],
+    "reasoning": "The call primarily focuses on addressing issues related to a recent outage and the rollout of a new product version. The team discusses critical bugs affecting enterprise customers, plans for load testing to prevent future incidents, and follows up on action items from a post-mortem review. This indicates a strong emphasis on incident response and reliability improvements.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

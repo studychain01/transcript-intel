@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "competitive analysis",
+      "product gaps",
+      "pricing pressure"
+    ],
+    "subthemes": [
+      "SIEM integration",
+      "compliance features",
+      "roadmap prioritization",
+      "competitive threats"
+    ],
+    "reasoning": "The call primarily revolves around a competitive landscape review where Jordan and Tom discuss various competitors and their strengths and weaknesses in relation to their own products. They identify specific gaps in their offerings, particularly in SIEM integration and compliance features, and strategize on how to address these issues in upcoming product reviews. The conversation highlights the need to prioritize product improvements in light of competitive pressures.",
+    "evidence_quotes": [
+      "they're leading pretty hard on the SIEM integration story",
+      "we're not as strong there",
+      "the LogVault connector thing — like, the SentinelShield gap — is probably the most actionable near-term thing we should be thinking about prioritizing."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Sales / Solutions Engineering (Pre-sales & Expansion)",
+    "secondary_categories": [
+      "competitive analysis",
+      "product gaps",
+      "pricing pressure"
+    ],
+    "subthemes": [
+      "SIEM integration",
+      "compliance features",
+      "roadmap prioritization",
+      "competitive threats"
+    ],
+    "reasoning": "The call primarily revolves around a competitive landscape review where Jordan and Tom discuss various competitors and their strengths and weaknesses in relation to their own products. They identify specific gaps in their offerings, particularly in SIEM integration and compliance features, and strategize on how to address these issues in upcoming product reviews. The conversation highlights the need to prioritize product improvements in light of competitive pressures.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

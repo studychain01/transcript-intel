@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "onboarding",
+      "backup and recovery",
+      "hybrid infrastructure",
+      "pci dss compliance"
+    ],
+    "subthemes": [
+      "custom data retention policies",
+      "onboarding timeline",
+      "restore drills",
+      "hybrid environment support"
+    ],
+    "reasoning": "The call is fundamentally about the onboarding process for Coastal Living as they transition to using Aegis Protect for their backup and recovery needs. Maria Santos, the Customer Success Manager, is guiding Vanessa Cruz through the onboarding phases, addressing specific requirements such as compliance with PCI DSS and the management of a hybrid infrastructure. The conversation emphasizes the importance of a smooth onboarding experience and the capabilities of Aegis Protect in meeting their business needs.",
+    "evidence_quotes": [
+      "We've been looking for a solid backup and recovery solution for, gosh, probably close to a year now.",
+      "We have PCI DSS requirements around some of our payment data and it gets complicated with different data types having different rules.",
+      "I feel like we made the right call choosing Aegis."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "onboarding",
+      "backup and recovery",
+      "hybrid infrastructure",
+      "pci dss compliance"
+    ],
+    "subthemes": [
+      "custom data retention policies",
+      "onboarding timeline",
+      "restore drills",
+      "hybrid environment support"
+    ],
+    "reasoning": "The call is fundamentally about the onboarding process for Coastal Living as they transition to using Aegis Protect for their backup and recovery needs. Maria Santos, the Customer Success Manager, is guiding Vanessa Cruz through the onboarding phases, addressing specific requirements such as compliance with PCI DSS and the management of a hybrid infrastructure. The conversation emphasizes the importance of a smooth onboarding experience and the capabilities of Aegis Protect in meeting their business needs.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

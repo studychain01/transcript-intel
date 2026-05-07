@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transcript-intel"
+version = "0.1.0"
+description = "Transcript Intelligence take-home scaffold"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "pyarrow>=14.0",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter>=1.0", "ipykernel>=6.0", "ipywidgets>=8.0", "matplotlib>=3.7", "seaborn>=0.13"]
+llm = ["langchain-core>=0.3", "langchain-openai>=0.2", "pydantic>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

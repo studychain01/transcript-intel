@@ -1,0 +1,46 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "alert tuning",
+      "false positives",
+      "compliance",
+      "financial services"
+    ],
+    "subthemes": [
+      "geo-anomaly detection",
+      "data retention",
+      "alert routing",
+      "privileged access monitoring",
+      "work schedule profiles"
+    ],
+    "reasoning": "The call primarily focused on tuning threat detection settings for Harborview Banking to address issues related to false positives and compliance requirements. The participants discussed specific configurations needed to reduce alert fatigue and ensure compliance with financial regulations, such as FFIEC and SOX. They also planned follow-up actions to implement changes in alert routing and data retention settings to meet audit requirements.",
+    "evidence_quotes": [
+      "The false positive issue is honestly top of mind right now.",
+      "From a compliance standpoint, will those profiles be documented in the configuration export?",
+      "I want to make sure Detect is configured for that."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Security & Compliance Advisory",
+    "secondary_categories": [
+      "alert tuning",
+      "false positives",
+      "compliance",
+      "financial services"
+    ],
+    "subthemes": [
+      "geo-anomaly detection",
+      "data retention",
+      "alert routing",
+      "privileged access monitoring",
+      "work schedule profiles"
+    ],
+    "reasoning": "The call primarily focused on tuning threat detection settings for Harborview Banking to address issues related to false positives and compliance requirements. The participants discussed specific configurations needed to reduce alert fatigue and ensure compliance with financial regulations, such as FFIEC and SOX. They also planned follow-up actions to implement changes in alert routing and data retention settings to meet audit requirements.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

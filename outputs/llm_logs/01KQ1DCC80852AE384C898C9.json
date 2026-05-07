@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal negotiation",
+      "competitive evaluation",
+      "SLA concerns"
+    ],
+    "subthemes": [
+      "SLA breach",
+      "pricing adjustments",
+      "compliance requirements",
+      "platform reliability",
+      "engineering call"
+    ],
+    "reasoning": "The call primarily revolves around the renewal of a contract following a significant service outage that has led the customer to question the reliability of the platform. The discussion includes concerns about pricing, competitive offerings from a rival company, and the need for compliance with upcoming regulations. The customer is evaluating their options while seeking assurances and adjustments from the provider to facilitate a successful renewal.",
+    "evidence_quotes": [
+      "we needed to have this conversation so here we are.",
+      "we have compliance obligations, we have customers who depend on us being secure — that's not a minor inconvenience.",
+      "we've been doing some evaluations of other options in the market."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "renewal negotiation",
+      "competitive evaluation",
+      "SLA concerns"
+    ],
+    "subthemes": [
+      "SLA breach",
+      "pricing adjustments",
+      "compliance requirements",
+      "platform reliability",
+      "engineering call"
+    ],
+    "reasoning": "The call primarily revolves around the renewal of a contract following a significant service outage that has led the customer to question the reliability of the platform. The discussion includes concerns about pricing, competitive offerings from a rival company, and the need for compliance with upcoming regulations. The customer is evaluating their options while seeking assurances and adjustments from the provider to facilitate a successful renewal.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

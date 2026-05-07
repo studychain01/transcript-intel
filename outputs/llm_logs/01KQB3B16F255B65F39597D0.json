@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "design review",
+      "compliance reporting",
+      "performance testing"
+    ],
+    "subthemes": [
+      "async report generation",
+      "multi-framework support",
+      "PDF export",
+      "load testing",
+      "roadmap planning"
+    ],
+    "reasoning": "The call focuses on a design review for the Comply v2 product, specifically discussing the architecture for on-demand compliance reporting and ensuring the product is ready for its upcoming launch. The team addresses technical aspects such as report generation latency, multi-framework support, and performance testing, indicating a strong emphasis on product engineering and operational readiness. Additionally, they discuss features like PDF export and the roadmap for future enhancements, which are critical for the product's success.",
+    "evidence_quotes": [
+      "the purpose of today's call is really to do a proper design review for Comply v2",
+      "we're looking at roughly... forty-five seconds to two minutes depending on data volume",
+      "customers really want PDF natively, not just CSV or JSON."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "design review",
+      "compliance reporting",
+      "performance testing"
+    ],
+    "subthemes": [
+      "async report generation",
+      "multi-framework support",
+      "PDF export",
+      "load testing",
+      "roadmap planning"
+    ],
+    "reasoning": "The call focuses on a design review for the Comply v2 product, specifically discussing the architecture for on-demand compliance reporting and ensuring the product is ready for its upcoming launch. The team addresses technical aspects such as report generation latency, multi-framework support, and performance testing, indicating a strong emphasis on product engineering and operational readiness. Additionally, they discuss features like PDF export and the roadmap for future enhancements, which are critical for the product's success.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

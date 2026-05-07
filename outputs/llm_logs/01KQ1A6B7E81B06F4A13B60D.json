@@ -1,0 +1,42 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "backup performance issue",
+      "agent version update",
+      "customer retention"
+    ],
+    "subthemes": [
+      "slow backup performance",
+      "version upgrade",
+      "notification gap",
+      "escalation process"
+    ],
+    "reasoning": "The call revolves around a technical support issue regarding degraded backup performance experienced by Kendra's retail company. David from Aegis Cloud Security identifies a potential root cause related to the backup agent version being outdated, which has known performance issues. The conversation also highlights a lack of communication regarding the update, leading to customer frustration and a need for escalation if the issue persists after the proposed upgrade.",
+    "evidence_quotes": [
+      "our nightly backup jobs are taking, uh, somewhere between four and six hours to complete",
+      "there was a known issue in 3.4.x where under certain conditions the change block tracking mechanism could — um — essentially over-scan",
+      "if you're still seeing the issue after the upgrade, the next thing I'd want to look at is your network egress path"
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "backup performance issue",
+      "agent version update",
+      "customer retention"
+    ],
+    "subthemes": [
+      "slow backup performance",
+      "version upgrade",
+      "notification gap",
+      "escalation process"
+    ],
+    "reasoning": "The call revolves around a technical support issue regarding degraded backup performance experienced by Kendra's retail company. David from Aegis Cloud Security identifies a potential root cause related to the backup agent version being outdated, which has known performance issues. The conversation also highlights a lack of communication regarding the update, leading to customer frustration and a need for escalation if the issue persists after the proposed upgrade.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "healthcare security",
+      "compliance",
+      "incident review",
+      "product update",
+      "expansion"
+    ],
+    "subthemes": [
+      "renewal terms",
+      "Comply v2 access",
+      "incident remediation",
+      "seat expansion rider",
+      "post-incident report"
+    ],
+    "reasoning": "The call primarily revolves around finalizing the renewal of services for Bridgeport Health, with a focus on addressing past incidents and ensuring compliance needs are met. Evelyn expresses satisfaction with the Aegis platform while also raising concerns about a previous outage, which Ravi addresses with technical details. The conversation also includes discussions about new features and terms for the upcoming contract, indicating a strong customer relationship and a focus on long-term success.",
+    "evidence_quotes": [
+      "I think we've got everyone on — Evelyn, can you hear us okay?",
+      "The outage in March, the what, six hours of no visibility? That was not great.",
+      "I really appreciate that, James. That gesture did not go unnoticed, I'll say that."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "healthcare security",
+      "compliance",
+      "incident review",
+      "product update",
+      "expansion"
+    ],
+    "subthemes": [
+      "renewal terms",
+      "Comply v2 access",
+      "incident remediation",
+      "seat expansion rider",
+      "post-incident report"
+    ],
+    "reasoning": "The call primarily revolves around finalizing the renewal of services for Bridgeport Health, with a focus on addressing past incidents and ensuring compliance needs are met. Evelyn expresses satisfaction with the Aegis platform while also raising concerns about a previous outage, which Ravi addresses with technical details. The conversation also includes discussions about new features and terms for the upcoming contract, indicating a strong customer relationship and a focus on long-term success.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "SCIM integration",
+      "automated provisioning",
+      "compliance requirements"
+    ],
+    "subthemes": [
+      "SCIM 2.0 integration",
+      "Okta workflows",
+      "automated deprovisioning",
+      "audit logs",
+      "feature request"
+    ],
+    "reasoning": "The call primarily revolves around the integration of SCIM 2.0 for automated user provisioning and deprovisioning between Okta and Aegis Identity. Meridian Capital is seeking to enhance their identity management processes to meet compliance requirements, particularly around timely deprovisioning. The Aegis team discusses interim solutions and logs a feature request for SCIM support, indicating the importance of this integration for their client.",
+    "evidence_quotes": [
+      "we're looking to tighten up our provisioning workflows",
+      "the manual process is starting to become a real gap for us",
+      "SCIM is kind of table stakes at this point for anyone running a serious IAM program."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Identity & Access Program",
+    "secondary_categories": [
+      "SCIM integration",
+      "automated provisioning",
+      "compliance requirements"
+    ],
+    "subthemes": [
+      "SCIM 2.0 integration",
+      "Okta workflows",
+      "automated deprovisioning",
+      "audit logs",
+      "feature request"
+    ],
+    "reasoning": "The call primarily revolves around the integration of SCIM 2.0 for automated user provisioning and deprovisioning between Okta and Aegis Identity. Meridian Capital is seeking to enhance their identity management processes to meet compliance requirements, particularly around timely deprovisioning. The Aegis team discusses interim solutions and logs a feature request for SCIM support, indicating the importance of this integration for their client.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

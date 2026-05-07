@@ -1,0 +1,44 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "onboarding",
+      "compliance",
+      "deployment"
+    ],
+    "subthemes": [
+      "multi-framework support",
+      "on-demand reporting",
+      "HIPAA compliance",
+      "SOC 2 type two",
+      "continuous monitoring"
+    ],
+    "reasoning": "The call is primarily focused on onboarding Clearwater Medical onto the Comply v2 platform, which is designed to enhance their compliance processes. The discussion revolves around the features of the platform that will aid in their compliance efforts, particularly with HIPAA and SOC 2 frameworks, and the urgency to deploy quickly to meet upcoming audit requirements. The participants express enthusiasm about the capabilities of the new system and align on a fast deployment timeline.",
+    "evidence_quotes": [
+      "our last audit cycle was, let's just say, not fun, so anything that makes that smoother is a win in my book.",
+      "the continuous monitoring integration means evidence is being collected automatically throughout that observation window, so you're not trying to reconstruct what happened six months ago.",
+      "this has been a long time coming for our compliance program and I feel really good about where this is headed."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Success & Renewals",
+    "secondary_categories": [
+      "onboarding",
+      "compliance",
+      "deployment"
+    ],
+    "subthemes": [
+      "multi-framework support",
+      "on-demand reporting",
+      "HIPAA compliance",
+      "SOC 2 type two",
+      "continuous monitoring"
+    ],
+    "reasoning": "The call is primarily focused on onboarding Clearwater Medical onto the Comply v2 platform, which is designed to enhance their compliance processes. The discussion revolves around the features of the platform that will aid in their compliance efforts, particularly with HIPAA and SOC 2 frameworks, and the urgency to deploy quickly to meet upcoming audit requirements. The participants express enthusiasm about the capabilities of the new system and align on a fast deployment timeline.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

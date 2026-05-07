@@ -1,0 +1,40 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing discrepancy",
+      "license upgrade",
+      "compliance reporting"
+    ],
+    "subthemes": [
+      "proration error",
+      "credit request",
+      "product features"
+    ],
+    "reasoning": "The call primarily revolves around a billing issue related to a license upgrade for Silverline Brands. The customers are seeking clarification on a discrepancy in their invoice due to incorrect proration calculations, which led to an overcharge. The support representative confirms the error and arranges for a credit to be issued, while also addressing additional questions about the product features included in their license.",
+    "evidence_quotes": [
+      "we're seeing a billing discrepancy that we can't quite figure out.",
+      "the proration should have started on the 7th, which would be... 24 days out of 30, so the charge should be 80 percent of the monthly differential, not the full amount.",
+      "there's no cap on report generation. The only thing to be aware of is that very large report exports... those can take a few minutes to process."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Customer Support & Technical Escalations",
+    "secondary_categories": [
+      "billing discrepancy",
+      "license upgrade",
+      "compliance reporting"
+    ],
+    "subthemes": [
+      "proration error",
+      "credit request",
+      "product features"
+    ],
+    "reasoning": "The call primarily revolves around a billing issue related to a license upgrade for Silverline Brands. The customers are seeking clarification on a discrepancy in their invoice due to incorrect proration calculations, which led to an overcharge. The support representative confirms the error and arranges for a credit to be issued, while also addressing additional questions about the product features included in their license.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}

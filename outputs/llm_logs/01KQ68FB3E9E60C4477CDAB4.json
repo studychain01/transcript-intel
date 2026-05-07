@@ -1,0 +1,48 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "attempt": 1,
+  "response_parsed": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "product launch",
+      "infrastructure deployment",
+      "qa and testing",
+      "observability and alerting",
+      "rollback planning"
+    ],
+    "subthemes": [
+      "GA deployment",
+      "Lambda cold-start issue",
+      "concurrent report generation latency",
+      "rollback strategy",
+      "redundancy in reporting pipeline"
+    ],
+    "reasoning": "The call focuses on the deployment plan for the Comply v2 product, discussing various aspects of the infrastructure changes, testing outcomes, and strategies for monitoring and rollback. The team is aligning on the technical details necessary for a successful launch, including addressing potential issues and ensuring system resilience. Overall, the conversation is centered around operational readiness for the product launch.",
+    "evidence_quotes": [
+      "April 7th is six days away, which honestly feels very real now",
+      "the new SOC 2 report generation was taking like 8 seconds on first call",
+      "we did see some queue latency creep up. Like, reports were still completing, but the p99 latency was around 22 seconds."
+    ]
+  },
+  "normalized": {
+    "primary_category": "Product & Engineering Operations",
+    "secondary_categories": [
+      "product launch",
+      "infrastructure deployment",
+      "qa and testing",
+      "observability and alerting",
+      "rollback planning"
+    ],
+    "subthemes": [
+      "GA deployment",
+      "Lambda cold-start issue",
+      "concurrent report generation latency",
+      "rollback strategy",
+      "redundancy in reporting pipeline"
+    ],
+    "reasoning": "The call focuses on the deployment plan for the Comply v2 product, discussing various aspects of the infrastructure changes, testing outcomes, and strategies for monitoring and rollback. The team is aligning on the technical details necessary for a successful launch, including addressing potential issues and ensuring system resilience. Overall, the conversation is centered around operational readiness for the product launch.",
+    "needs_review": false,
+    "llm_skipped": false
+  }
+}
