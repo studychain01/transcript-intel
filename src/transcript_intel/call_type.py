@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import re
 
-# TODO (you): tune regexes from exploratory analysis on all titles
 _RE_SUPPORT = re.compile(r"^Support\s+Case\s*#", re.I)
 _RE_AEGIS_CUSTOMER = re.compile(r"^Aegis\s*/\s*", re.I)
 _RE_INCIDENT = re.compile(

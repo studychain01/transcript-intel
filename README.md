@@ -197,5 +197,3 @@ python -m transcript_intel.pipeline
 ```
 
 Logs: `outputs/llm_logs/{meeting_id}.json`
-
-🔒 **Secrets:** never commit keys — use `.env` locally (see `.env.example`) or `export` before runs.
